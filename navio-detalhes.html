@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>AMAZON CHIEFTAIN Z — Especificações Técnicas | Galáxia Marítima</title>
+  <meta name="description" content="Ficha técnica detalhada (Data-Sheet) do navio AMAZON CHIEFTAIN Z da Galáxia Marítima. Informações de registro e características principais." />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 01: CABEÇALHO (HEADER)                                             -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+
+      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
+      <a href="index.html" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
+      </a>
+
+      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html" class="active">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="principios-eticos.html">Princípios Éticos</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 02: HERO MENOR DA PÁGINA COM BREADCRUMBS E DESTAQUE                  -->
+  <!-- ========================================================================== -->
+  <!-- [INTEGRAÇÃO DJANGO]: Pode ser transformado em template dinâmico {{ navio.nome }} -->
+  <section class="ship-detail-header">
+    <div class="ship-detail-bg">
+      <img id="shipBgImg" src="assets/images/frota/image_b3b8ca.jpg" alt="Fundo escurecido do navio" />
+    </div>
+    
+    <div class="container ship-detail-container">
+      
+      <!-- Navegação Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span>&rsaquo;</span>
+        <a href="frota.html">Nossa Frota</a>
+        <span>&rsaquo;</span>
+        <span id="breadcrumbShipName">AMAZON CHIEFTAIN Z</span>
+      </nav>
+
+      <div class="ship-detail-title-row">
+        <div class="ship-detail-title-info">
+          <h1 id="shipTitle">AMAZON CHIEFTAIN Z</h1>
+          <p class="ship-detail-subtitle" id="shipSubtitle">Especificações Técnicas Completas & Data-Sheet</p>
+        </div>
+
+        <!-- Carrossel automático de imagens do navio -->
+        <figure class="ship-header-image">
+          <div class="ship-img-carousel" id="shipCarousel">
+            <!-- Slides gerados dinamicamente pelo JavaScript -->
+          </div>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 03: ESPECIFICAÇÕES TÉCNICAS (GRID LADO A LADO / ESTILO DATA-SHEET) -->
+  <!-- ========================================================================== -->
+  <section class="specs-section">
+    <div class="container">
+      
+      <!-- Grid dos 2 Blocos -->
+      <div class="specs-grid reveal">
+        
+        <!-- BLOCO 1: INFORMAÇÕES DE REGISTRO -->
+        <div class="spec-block">
+          <div class="spec-block-header">
+            <!-- Ícone sutil de Documento para Registro -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            <h2>Informações de Registro</h2>
+          </div>
+          
+          <div class="spec-list" id="regList">
+            <div class="spec-item">
+              <span class="spec-label">Tipo de Embarcação:</span>
+              <span class="spec-value" id="spec-tipo">AHTS / TUG / SUPPLY</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Proprietário:</span>
+              <span class="spec-value" id="spec-proprietario">MCT INC.</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Ano / Local de Construção:</span>
+              <span class="spec-value" id="spec-construcao">1992 (Soviknes Verft, Noruega)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Bandeira:</span>
+              <span class="spec-value" id="spec-bandeira">Chipre</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Porto de Registro:</span>
+              <span class="spec-value" id="spec-porto">Limassol</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Indicativo de Chamada (Call Sign):</span>
+              <span class="spec-value" id="spec-callsign">5BJB4</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Classificação:</span>
+              <span class="spec-value" id="spec-classificacao">LRS +1001A1, LMC, UMS offshore, DP1</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">IMO:</span>
+              <span class="spec-value" id="spec-imo">9007178</span>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- BLOCO 2: CARACTERÍSTICAS PRINCIPAIS -->
+        <div class="spec-block">
+          <div class="spec-block-header">
+            <!-- Ícone sutil de Régua/Engrenagem para Características Principais -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+            <h2>Características Principais</h2>
+          </div>
+          
+          <div class="spec-list" id="mainSpecsList">
+            <div class="spec-item">
+              <span class="spec-label">Comprimento Total (LOA):</span>
+              <span class="spec-value" id="spec-loa">76,00 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Comprimento entre Perpendiculares (LBP):</span>
+              <span class="spec-value" id="spec-lbp">67,80 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Boca Moldada:</span>
+              <span class="spec-value" id="spec-boca">17,20 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Pontal Moldado:</span>
+              <span class="spec-value" id="spec-pontal">8,50 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Calado Máximo:</span>
+              <span class="spec-value" id="spec-calado">7,21 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Borda Livre Mínima:</span>
+              <span class="spec-value" id="spec-borda">1,29 m</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Porte Bruto (DWT):</span>
+              <span class="spec-value" id="spec-dwt">3.393 t</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Granel Sólido (Dry Bulk):</span>
+              <span class="spec-value" id="spec-drybulk">345 m³</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Tração Estática (Bollard Pull):</span>
+              <span class="spec-value" id="spec-bollard">182 t</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Arqueação Bruta / Líquida:</span>
+              <span class="spec-value" id="spec-arqueacao">2.966 t / 889 t</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- BOTÕES DE AÇÃO (RODAPÉ DA PÁGINA DO NAVIO) -->
+      <div class="ship-detail-footer reveal">
+        <div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--navy-900); margin-bottom: 4px;">Deseja alocar esta embarcação em sua operação?</h3>
+          <p style="font-size: 0.9rem; color: var(--gray-600);">Solicite cotações comerciais e relatórios de inspeção técnica com nossa equipe operacional.</p>
+        </div>
+
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="frota.html" class="btn btn-outline">
+            &larr; Voltar para a Frota
+          </a>
+          <a href="index.html#contato" class="btn btn-primary">
+            Solicitar Informações Comerciais
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 04: RODAPÉ (FOOTER)                                                -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia Marítima" />
+            <span class="header-logo-text">Galáxia <span>Marítima</span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="frota.html">Nossa Frota</a></li>
+            <li><a href="index.html#servicos">Serviços</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Nossos Navios</h4>
+          <ul>
+            <li><a href="navio-detalhes.html?navio=amazon-chieftain-z">AMAZON CHIEFTAIN Z</a></li>
+            <li><a href="navio-detalhes.html?navio=captain-nicholas-z">CAPTAIN NICHOLAS Z</a></li>
+            <li><a href="navio-detalhes.html?navio=apollo-z">APOLLO Z</a></li>
+            <li><a href="navio-detalhes.html?navio=theseus-z">THESEUS Z</a></li>
+            <li><a href="navio-detalhes.html?navio=atlas-z">ATLAS Z</a></li>
+            <li><a href="navio-detalhes.html?navio=gnl-1015">GNL 1015</a></li>
+            <li><a href="navio-detalhes.html?navio=gnl-1022">GNL 1022</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <p>contato@galaxiamaritima.com.br</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia Marítima. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Efeito visual de opacidade do cabeçalho no scroll
+    const header = document.getElementById('header');
+    if (header) {
+      window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+      });
+    }
+    // Menu mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      mainNav.classList.toggle('open');
+    });
+
+    // Banco de Dados Dinâmico da Frota (Para navegação estática inteligente)
+    // imgs: array de imagens — se tiver mais de uma, o carrossel automático é ativado
+    const frotaDados = {
+      'amazon-chieftain-z': {
+        nome: 'AMAZON CHIEFTAIN Z',
+        imgs: ['assets/images/frota/image_b3b8ca.jpg'],
+        tipo: 'AHTS / TUG / SUPPLY',
+        proprietario: 'MCT INC.',
+        construcao: '1992 (Soviknes Verft, Noruega)',
+        bandeira: 'Chipre',
+        porto: 'Limassol',
+        callsign: '5BJB4',
+        classificacao: 'LRS +1001A1, LMC, UMS offshore, DP1',
+        imo: '9007178',
+        loa: '76,00 m',
+        lbp: '67,80 m',
+        boca: '17,20 m',
+        pontal: '8,50 m',
+        calado: '7,21 m',
+        borda: '1,29 m',
+        dwt: '3.393 t',
+        drybulk: '345 m³',
+        bollard: '182 t',
+        arqueacao: '2.966 t / 889 t'
+      },
+      'captain-nicholas-z': {
+        nome: 'CAPTAIN NICHOLAS Z',
+        imgs: [
+          'assets/images/frota/Captain Nicholas Z/1.jpg',
+          'assets/images/frota/Captain Nicholas Z/2.jpg'
+        ],
+        tipo: 'AHTS / TUG / SUPPLY',
+        proprietario: 'ZOUROS GROUP',
+        construcao: '2008 (JSC Amur Shipbuilding Plant, Rússia)',
+        bandeira: 'Panamá',
+        porto: '—',
+        callsign: 'HO 4101',
+        classificacao: 'DNV +1A1, Tug, Supply Vessel, SF, E0, OILREC, Fire Fighter-I, DYNPOS AUT',
+        imo: '9334179',
+        loa: '74,90 m',
+        lbp: '64,90 m',
+        boca: '18,00 m',
+        pontal: '8,00 m',
+        calado: '6,60 m',
+        borda: '1,29 m',
+        dwt: '3.211 t',
+        drybulk: '—',
+        bollard: '158 t',
+        arqueacao: 'AB 3.062 t / AL 1.070 t'
+      },
+      'apollo-z': {
+        nome: 'APOLLO Z',
+        imgs: [
+          'assets/images/frota/Apollo Z/1.png',
+          'assets/images/frota/Apollo Z/2.jpg',
+          'assets/images/frota/Apollo Z/3.jpg',
+          'assets/images/frota/Apollo Z/4.jpg'
+        ],
+        tipo: 'AHTS / TUG / SUPPLY',
+        proprietario: 'MCT INC.',
+        construcao: '2007',
+        bandeira: '—',
+        porto: '—',
+        callsign: 'JWNC',
+        classificacao: 'DNV 1A1, Tug, Supply Vessel, E0, SF, Dyn Pos AUTR, TMON, COMF(V3), Clean Design, Ice C, OilRec, LFL, NAUT-OSV(LOC)',
+        imo: '9364265',
+        loa: '86,00 m',
+        lbp: '73,50 m',
+        boca: '19,90 m',
+        pontal: '8,80 m',
+        calado: '7,30 m',
+        borda: '—',
+        dwt: '3.671 t',
+        drybulk: '—',
+        bollard: '195 t',
+        arqueacao: 'AB 4.727 t / AL 1.418 t'
+      },
+      'gnl-1015': {
+        nome: 'GNL 1015',
+        imgs: [
+          'assets/images/frota/1015/GNL 1015.png',
+          'assets/images/frota/1015/GNL 1015..png'
+        ],
+        tipo: 'NAVIO DE APOIO MULTIPROPÓSITO (MPSV)',
+        proprietario: 'GALÁXIA LOGÍSTICA NAVAL',
+        construcao: '—',
+        bandeira: 'Brasil',
+        porto: 'Rio de Janeiro',
+        callsign: '—',
+        classificacao: '—',
+        imo: '9469857',
+        loa: '—',
+        lbp: '—',
+        boca: '—',
+        pontal: '—',
+        calado: '—',
+        borda: '—',
+        dwt: '—',
+        drybulk: '—',
+        bollard: '—',
+        arqueacao: '—'
+      },
+      'gnl-1022': {
+        nome: 'GNL 1022',
+        imgs: ['assets/images/frota/image_b3b8ff.jpg'],
+        tipo: 'MPSV – Navio de Apoio Multipropósito',
+        proprietario: '—',
+        construcao: '2012 (ABG Shipyard, Surat — próximo ao Porto Magdalla)',
+        bandeira: '—',
+        porto: '—',
+        callsign: '—',
+        classificacao: 'DNV',
+        imo: '—',
+        loa: '63,40 m',
+        lbp: '—',
+        boca: '15,80 m',
+        pontal: '—',
+        calado: '5,50 m (máx. – IBC: T2)',
+        borda: '—',
+        dwt: '1.856 t (calado de verão)',
+        drybulk: '220,8 t',
+        bollard: '—',
+        arqueacao: '1.969 t (Bruta)',
+        extras: [
+          { label: 'Área de Convés', value: '120 m²' },
+          { label: 'Carga de Convés / Resistência', value: '5,0 t/m²' },
+          { label: 'Óleo Combustível (96%)', value: '533,7 m³ — 200 m³/h @ 60 m' },
+          { label: 'Água Potável (100%)', value: '1.400 t' },
+          { label: 'Água de Perfuração / Lastro (100%)', value: '292 t' },
+          { label: 'Lama Base Sintética (96%)', value: '183 t' },
+          { label: 'Guindaste de Carga de Provisões', value: '1× Norway Hift 3 t' },
+          { label: 'Guindastes de Tração (Tugger Winches)', value: '2× 10 t × 15 m/min, retenção 20 t' },
+          { label: 'Motores Principais (Geradores)', value: '2× 2.400 kW, RRM Bergen — Modelo: C25:33L8P' },
+          { label: 'Propulsores de Proa', value: '1× 500 kW Rolls-Royce' },
+          { label: 'Propulsores Azimutais', value: '2× CPP Ulstein KaMeWa' },
+          { label: 'Capacidade Total de Tripulação', value: '29 pessoas' }
+        ]
+      },
+      'theseus-z': {
+        nome: 'THESEUS Z',
+        imgs: ['assets/images/frota/Theseus Z/THESEUS Z.png'],
+        tipo: 'AHTS / TUG / SUPPLY',
+        proprietario: 'MCT INC.',
+        construcao: '2007',
+        bandeira: '—',
+        porto: '—',
+        callsign: 'LNVE',
+        classificacao: 'DNV 1A1, Tug, Supply Vessel, E0, SF, Dyn Pos AUTR, TMON, COMF(V3), Clean Design, Ice C, OilRec, LFL, NAUT-OSV(LOC)',
+        imo: '9364253',
+        loa: '86,00 m',
+        lbp: '73,50 m',
+        boca: '19,90 m',
+        pontal: '8,80 m',
+        calado: '7,30 m',
+        borda: '—',
+        dwt: '3.671 t',
+        drybulk: '—',
+        bollard: '195 t',
+        arqueacao: 'AB 4.727 t / AL 1.418 t'
+      },
+      'atlas-z': {
+        nome: 'ATLAS Z',
+        imgs: [
+          'assets/images/frota/Atlas Z/DJI_20251001141013_0003_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251001141911_0023_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016125742_0002_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016133335_0003_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016133540_0007_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016134301_0030_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016140050_0006_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016140333_0020_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016140955_0029_Z.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016141039_0031_Z.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016141041_0032_Z.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016141115_0033_Z.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016141132_0034_W.JPG',
+          'assets/images/frota/Atlas Z/DJI_20251016141133_0035_W.JPG'
+        ],
+        tipo: 'AHTS / TUG / SUPPLY VESSEL',
+        proprietario: 'GALÁXIA  / MCT INC.',
+        construcao: '2013 (Estaleiro Ilha S.A. — EISA, Rio de Janeiro)',
+        bandeira: 'Brasil',
+        porto: 'Rio de Janeiro',
+        callsign: 'PQAL',
+        classificacao: 'DNV +1A1, Tug, Supply Vessel, SF, E0, DYNPOS AUTR, Clean Design',
+        imo: '9630705',
+        loa: '64,05 m',
+        lbp: '57,50 m',
+        boca: '15,60 m',
+        pontal: '6,80 m',
+        calado: '5,50 m',
+        borda: '1,30 m',
+        dwt: '2.107 t',
+        drybulk: '190 m³',
+        bollard: '110 t',
+        arqueacao: 'AB 1.845 t / AL 553 t',
+        extras: [
+          { label: 'Sistema de Posicionamento Dinâmico', value: 'DP2 (DNV DYNPOS AUTR)' },
+          { label: 'Capacidade de Óleo Combustível', value: '720 m³' },
+          { label: 'Capacidade de Água Potável', value: '580 m³' },
+          { label: 'Capacidade de Água de Lastro/Perfuração', value: '1.150 m³' },
+          { label: 'Área Livre de Convés', value: '380 m²' },
+          { label: 'Resistência do Convés', value: '5,0 t/m²' },
+          { label: 'Acomodação Total', value: '32 pessoas em cabines climatizadas' }
+        ]
+      }
+    };
+
+    // Lê parâmetro da URL (?navio=...) e preenche a ficha técnica
+    const urlParams = new URLSearchParams(window.location.search);
+    const navioKey = urlParams.get('navio');
+
+    if (navioKey && frotaDados[navioKey]) {
+      const d = frotaDados[navioKey];
+      const imgs = d.imgs || [d.img];
+
+      document.title = `${d.nome} — Especificações Técnicas | Galáxia `;
+      document.getElementById('shipTitle').textContent = d.nome;
+      document.getElementById('breadcrumbShipName').textContent = d.nome;
+
+      // Imagem de fundo (usa a primeira)
+      document.getElementById('shipBgImg').src = imgs[0];
+
+      // Monta o carrossel de imagens
+      const carousel = document.getElementById('shipCarousel');
+      imgs.forEach((src, i) => {
+        const slide = document.createElement('div');
+        slide.className = 'carousel-slide' + (i === 0 ? ' active' : '');
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = `Foto ${i + 1} do navio ${d.nome}`;
+        slide.appendChild(img);
+        carousel.appendChild(slide);
+      });
+
+      // Carrossel interativo com passagem automática
+      if (imgs.length > 1) {
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        let currentIdx = 0;
+        let autoTimer = null;
+        let isHovered = false;
+
+        // Barra de progresso
+        const progress = document.createElement('div');
+        progress.className = 'ship-carousel-progress';
+        carousel.appendChild(progress);
+
+        // Dots
+        const dotsWrap = document.createElement('div');
+        dotsWrap.className = 'ship-carousel-dots';
+        imgs.forEach((_, i) => {
+          const dot = document.createElement('button');
+          dot.className = 'ship-carousel-dot' + (i === 0 ? ' active' : '');
+          dot.setAttribute('aria-label', `Ver foto ${i + 1}`);
+          dotsWrap.appendChild(dot);
+        });
+        carousel.appendChild(dotsWrap);
+        const dots = dotsWrap.querySelectorAll('.ship-carousel-dot');
+
+        // Seta anterior
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'ship-carousel-arrow ship-carousel-prev';
+        prevBtn.setAttribute('aria-label', 'Foto anterior');
+        prevBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
+        carousel.appendChild(prevBtn);
+
+        // Seta próxima
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'ship-carousel-arrow ship-carousel-next';
+        nextBtn.setAttribute('aria-label', 'Próxima foto');
+        nextBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`;
+        carousel.appendChild(nextBtn);
+
+        function startProgress() {
+          if (isHovered) {
+            progress.classList.remove('running');
+            return;
+          }
+          progress.classList.remove('running');
+          void progress.offsetWidth;
+          progress.classList.add('running');
+        }
+
+        function goTo(idx) {
+          slides[currentIdx].classList.remove('active');
+          dots[currentIdx].classList.remove('active');
+          currentIdx = (idx + slides.length) % slides.length;
+          slides[currentIdx].classList.add('active');
+          dots[currentIdx].classList.add('active');
+          startProgress();
+        }
+
+        function resetAuto() {
+          clearInterval(autoTimer);
+          if (!isHovered) {
+            autoTimer = setInterval(() => goTo(currentIdx + 1), 4000);
+          }
+        }
+
+        // Interação: pausar ao passar o mouse e retomar ao tirar
+        carousel.addEventListener('mouseenter', () => {
+          isHovered = true;
+          clearInterval(autoTimer);
+          progress.classList.remove('running');
+        });
+
+        carousel.addEventListener('mouseleave', () => {
+          isHovered = false;
+          resetAuto();
+          startProgress();
+        });
+
+        // Interação: Suporte a toque (swipe) para mobile
+        let startX = 0;
+        let endX = 0;
+        carousel.addEventListener('touchstart', e => {
+          startX = e.changedTouches[0].screenX;
+          clearInterval(autoTimer);
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', e => {
+          endX = e.changedTouches[0].screenX;
+          const diffX = startX - endX;
+          if (Math.abs(diffX) > 40) {
+            if (diffX > 0) {
+              goTo(currentIdx + 1);
+            } else {
+              goTo(currentIdx - 1);
+            }
+          }
+          resetAuto();
+        }, { passive: true });
+
+        // Eventos das setas
+        nextBtn.addEventListener('click', () => { goTo(currentIdx + 1); resetAuto(); });
+        prevBtn.addEventListener('click', () => { goTo(currentIdx - 1); resetAuto(); });
+
+        // Eventos dos dots
+        dots.forEach((dot, i) => {
+          dot.addEventListener('click', () => { goTo(i); resetAuto(); });
+        });
+
+        // Inicia
+        startProgress();
+        resetAuto();
+      }
+
+      document.getElementById('spec-tipo').textContent = d.tipo;
+      document.getElementById('spec-proprietario').textContent = d.proprietario;
+      document.getElementById('spec-construcao').textContent = d.construcao;
+      document.getElementById('spec-bandeira').textContent = d.bandeira;
+      document.getElementById('spec-porto').textContent = d.porto;
+      document.getElementById('spec-callsign').textContent = d.callsign;
+      document.getElementById('spec-classificacao').textContent = d.classificacao;
+      document.getElementById('spec-imo').textContent = d.imo;
+
+      document.getElementById('spec-loa').textContent = d.loa;
+      document.getElementById('spec-lbp').textContent = d.lbp;
+      document.getElementById('spec-boca').textContent = d.boca;
+      document.getElementById('spec-pontal').textContent = d.pontal;
+      document.getElementById('spec-calado').textContent = d.calado;
+      document.getElementById('spec-borda').textContent = d.borda;
+      document.getElementById('spec-dwt').textContent = d.dwt;
+      document.getElementById('spec-drybulk').textContent = d.drybulk;
+      document.getElementById('spec-bollard').textContent = d.bollard;
+      document.getElementById('spec-arqueacao').textContent = d.arqueacao;
+
+      // Bloco extra de especificações (opcional — ex: GNL 1022)
+      if (d.extras && d.extras.length > 0) {
+        const specsGrid = document.querySelector('.specs-grid');
+        const extraBlock = document.createElement('div');
+        extraBlock.className = 'spec-block';
+        extraBlock.style.gridColumn = '1 / -1'; // ocupa toda a largura
+        extraBlock.innerHTML = `
+          <div class="spec-block-header">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="m6.8 6.8 2.8 2.8"/><path d="m17.2 6.8-2.8 2.8"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M12 12v10"/><path d="M8 22h8"/><circle cx="12" cy="12" r="3"/></svg>
+            <h2>Capacidades Operacionais</h2>
+          </div>
+          <div class="spec-list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));">
+            ${d.extras.map((e, i) => `
+              <div class="spec-item" style="${i % 2 === 0 ? '' : 'background:var(--gray-100);'}">
+                <span class="spec-label">${e.label}:</span>
+                <span class="spec-value">${e.value}</span>
+              </div>
+            `).join('')}
+          </div>
+        `;
+        specsGrid.appendChild(extraBlock);
+      }
+    }
+
+    // Scroll Reveal
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05, rootMargin: '0px 0px 0px 0px' });
+    revealElements.forEach(el => revealObserver.observe(el));
+  </script>
+  <script src="i18n.js"></script>
+</body>
+</html>

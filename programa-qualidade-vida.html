@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programa de Qualidade de Vida | Galáxia Marítima</title>
+  <meta name="description" content="Programa voltado à saúde e à qualidade de vida no trabalho da Galáxia Marítima, tornando nossa empresa mais saudável, competitiva e produtiva." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                                   -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+
+      <!-- LOGO -->
+      <a href="index.html" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
+      </a>
+
+      <!-- MENU DE NAVEGAÇÃO -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle active" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="codigo-conduta.html">Código de Conduta</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html" class="active">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================== -->
+  <!-- CONTEÚDO PRINCIPAL                                                       -->
+  <!-- ========================================================================== -->
+  <main>
+
+    <!-- HERO IMERSIVO & GLASSMORPHIC COM PÍLULAS DE VITALIDADE -->
+    <section class="pqv-hero">
+      <div class="container">
+        
+        <nav class="breadcrumbs" aria-label="Breadcrumb" style="margin-bottom: 40px;">
+          <a href="index.html" style="color: rgba(255,255,255,0.7);">Home</a>
+          <span style="color: rgba(255,255,255,0.4);">&rsaquo;</span>
+          <a href="#" style="color: rgba(255,255,255,0.7);">QSMS</a>
+          <span style="color: rgba(255,255,255,0.4);">&rsaquo;</span>
+          <span style="color: #F6B032;">Qualidade de Vida</span>
+        </nav>
+
+        <div class="pqv-hero-grid">
+          
+          <!-- Lado Esquerdo: Título & Card Glassmorphic com Citação do Usuário -->
+          <div class="pqv-hero-content reveal">
+            <div class="pqv-overline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              Saúde, Ergonomia & Bem-Estar
+            </div>
+            <h1>Programa de <span>Qualidade de Vida</span></h1>
+
+            <!-- Card de Citação / Missão do Programa -->
+            <div class="pqv-glass-card">
+              <p class="pqv-glass-quote">
+                “Um programa voltado à saúde e a qualidade de vida no trabalho para nossos colaboradores, com o intuito de tornar a empresa mais saudável, competitiva e produtiva.”
+              </p>
+              <div class="pqv-glass-author">
+                <div class="pqv-glass-author-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                </div>
+                <div class="pqv-glass-author-text">
+                  <span>Compromisso Institucional Galáxia Marítima</span>
+                  <small>Estratégia Integral de Valorização Humana</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lado Direito: Banner de Métricas & Badges Flutuantes de Vitalidade -->
+          <div class="pqv-hero-visual reveal" style="transition-delay: 0.15s;">
+            
+            <div class="pqv-stats-banner">
+              <div class="pqv-stat-box">
+                <span class="pqv-stat-num">100%</span>
+                <span class="pqv-stat-label">Foco na Saúde & Segurança</span>
+              </div>
+              <div class="pqv-stat-box">
+                <span class="pqv-stat-num">Zero</span>
+                <span class="pqv-stat-label">Tolerância ao Desgaste / Fadiga</span>
+              </div>
+              <div class="pqv-stat-box">
+                <span class="pqv-stat-num">360°</span>
+                <span class="pqv-stat-label">Cuidado Integral (Onshore & Offshore)</span>
+              </div>
+              <div class="pqv-stat-box">
+                <span class="pqv-stat-num">+ Alta</span>
+                <span class="pqv-stat-label">Competitividade & Produtividade</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO MATRIZ DE BENEFÍCIOS (GRID INTERATIVO DOS 8 PONTOS DO USUÁRIO) -->
+    <section class="pqv-benefits-section">
+      <div class="container">
+        
+        <div class="pqv-section-header reveal">
+          <div class="pqv-section-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Impacto Estratégico & Humano
+          </div>
+          <h2>Benefícios da Implementação</h2>
+          <p>
+            A implementação de um Programa de Qualidade de Vida Galáxia pretende obter os seguintes benefícios, fortalecendo a relação de confiança e impulsionando a excelência:
+          </p>
+        </div>
+
+        <div class="pqv-benefits-grid">
+
+          <!-- Benefício 1: Reconhecimento -->
+          <article class="pqv-benefit-card reveal reveal-delay-1">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+                <span class="pqv-card-index">01</span>
+              </div>
+              <h3>Reconhecimento & Valorização</h3>
+              <p>Reconhecimento dos funcionários de que a empresa investe na saúde no trabalho.</p>
+            </div>
+            <span class="pqv-card-tag">Percepção Positiva</span>
+          </article>
+
+          <!-- Benefício 2: Retenção -->
+          <article class="pqv-benefit-card reveal reveal-delay-2">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <span class="pqv-card-index">02</span>
+              </div>
+              <h3>Retenção de Talentos</h3>
+              <p>Retenção dos colaboradores, consolidando equipes experientes, leais e engajadas nas operações marítimas.</p>
+            </div>
+            <span class="pqv-card-tag">Estabilidade Operacional</span>
+          </article>
+
+          <!-- Benefício 3: Redução de Afastamentos -->
+          <article class="pqv-benefit-card reveal reveal-delay-3">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                </div>
+                <span class="pqv-card-index">03</span>
+              </div>
+              <h3>Redução de Afastamentos</h3>
+              <p>Redução de afastamentos médicos e licenças de saúde através de acompanhamento preventivo contínuo.</p>
+            </div>
+            <span class="pqv-card-tag">Saúde Contínua</span>
+          </article>
+
+          <!-- Benefício 4: Motivação e Comprometimento -->
+          <article class="pqv-benefit-card reveal reveal-delay-1">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <span class="pqv-card-index">04</span>
+              </div>
+              <h3>Motivação & Comprometimento</h3>
+              <p>Motivação e comprometimento dos funcionários para alcançar e superar os objetivos estratégicos e de segurança da empresa.</p>
+            </div>
+            <span class="pqv-card-tag">Engajamento Máximo</span>
+          </article>
+
+          <!-- Benefício 5: Redução da Fadiga -->
+          <article class="pqv-benefit-card reveal reveal-delay-2">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <span class="pqv-card-index">05</span>
+              </div>
+              <h3>Redução da Fadiga</h3>
+              <p>Redução da fadiga física e mental, promovendo rotinas equilibradas, bom descanso e agilidade cognitiva a bordo.</p>
+            </div>
+            <span class="pqv-card-tag">Revitalização & Alerta</span>
+          </article>
+
+          <!-- Benefício 6: Maior Produtividade -->
+          <article class="pqv-benefit-card reveal reveal-delay-3">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                </div>
+                <span class="pqv-card-index">06</span>
+              </div>
+              <h3>Maior Produtividade</h3>
+              <p>Maior produtividade geral, com times atuando em sua plenitude de vigor e harmonia operacional.</p>
+            </div>
+            <span class="pqv-card-tag">Performance de Elite</span>
+          </article>
+
+          <!-- Benefício 7: Prevenção LER-DORT -->
+          <article class="pqv-benefit-card reveal reveal-delay-1">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg>
+                </div>
+                <span class="pqv-card-index">07</span>
+              </div>
+              <h3>Prevenção de LER-DORT</h3>
+              <p>Diminuição do número de casos de LER-DORT (Lesões por Esforço Repetitivo e Distúrbios Osteomusculares) através de ergonomia orientada.</p>
+            </div>
+            <span class="pqv-card-tag">Ergonomia & Ocupacional</span>
+          </article>
+
+          <!-- Benefício 8: Custos Médicos e Psicológicos -->
+          <article class="pqv-benefit-card reveal reveal-delay-2">
+            <div>
+              <div class="pqv-card-top">
+                <div class="pqv-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                </div>
+                <span class="pqv-card-index">08</span>
+              </div>
+              <h3>Assistência Médica & Psicológica</h3>
+              <p>Redução com custos de assistência médica e psicológica, otimizando investimentos em saúde preventiva e bem-estar mental.</p>
+            </div>
+            <span class="pqv-card-tag">Equilíbrio Sustentável</span>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO OS 4 PILARES INTEGRADOS DA QUALIDADE DE VIDA -->
+    <section class="pqv-pillars-section">
+      <div class="container">
+        <div class="pqv-section-header reveal" style="margin-bottom: 50px;">
+          <span class="apt-overline">Abordagem 360 Graus</span>
+          <h2>Os 4 Pilares de Vitalidade</h2>
+          <p>Como estruturamos nossas ações diárias nas embarcações e na base administrativa para garantir saúde em todas as dimensões da vida humana.</p>
+        </div>
+
+        <div class="pqv-pillars-grid">
+
+          <div class="pqv-pillar-box reveal reveal-delay-1">
+            <div class="pqv-pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h4>Saúde Física & Nutrição</h4>
+            <p>Alimentação balanceada a bordo, incentivo à prática regular de exercícios e check-ups ocupacionais preventivos periódicos.</p>
+          </div>
+
+          <div class="pqv-pillar-box reveal reveal-delay-2">
+            <div class="pqv-pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2Z"/><path d="M12 12 2.8 8.8"/></svg>
+            </div>
+            <h4>Equilíbrio Mental & Emocional</h4>
+            <p>Apoio psicológico de escuta ativa, programas de descompressão do estresse e valorização da saúde mental na rotina de escala.</p>
+          </div>
+
+          <div class="pqv-pillar-box reveal reveal-delay-3">
+            <div class="pqv-pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Convivência & Família</h4>
+            <p>Integração social entre tripulantes, canais de comunicação com familiares durante embarques prolongados e respeito às datas comemorativas.</p>
+          </div>
+
+          <div class="pqv-pillar-box reveal reveal-delay-1">
+            <div class="pqv-pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <h4>Ergonomia & Conforto</h4>
+            <p>Camarotes climatizados, isolamento acústico adequado nas áreas de repouso e estações de trabalho adaptadas para prevenir lesões posturais.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER DE CHAMADA FINAL CURVO / ORGÂNICO -->
+    <section class="pqv-cta-section">
+      <div class="container">
+        <div class="pqv-cta-inner reveal">
+          <h2>Uma Empresa Feita por Pessoas Saudáveis e Felizes</h2>
+          <p>Acreditamos que o bem-estar da nossa equipe é o motor fundamental para o sucesso e a segurança de todas as nossas missões de apoio marítimo no Brasil.</p>
+          <a href="fale-conosco.html" class="btn btn-primary" style="background: #F6B032; color: #0B1C3F; border: none; font-weight: 700; padding: 16px 36px; font-size: 1.05rem;">
+            Conheça Nosso Compromisso
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS DE POLÍTICAS QSMS -->
+    <section class="apt-policies-section" style="background: var(--white);">
+      <div class="container">
+        <div class="apt-policies-header reveal">
+          <span class="apt-overline">Sistema de Gestão Integrado</span>
+          <h2>Outras Políticas e Programas QSMS</h2>
+        </div>
+        <div class="apt-policies-grid">
+
+          <a href="autoridade-parar-trabalho.html" class="apt-policy-card reveal reveal-delay-1">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v4"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V5a2 2 0 0 0-4 0v9"/><path d="M6 14v-2a2 2 0 0 0-4 0v4c0 4.5 3.5 8 8 8h3c4.5 0 8-3.5 8-8V9a2 2 0 0 0-4 0v2"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Autoridade de Parar o Trabalho</h4>
+              <p>Direito e dever de interromper qualquer operação considerada insegura.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="codigo-conduta.html" class="apt-policy-card reveal reveal-delay-2">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Código de Conduta</h4>
+              <p>Valores, princípios e diretrizes éticas que norteiam nossas relações e decisões.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="politica-qsms.html" class="apt-policy-card reveal reveal-delay-3">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Política de QSMS</h4>
+              <p>Compromisso com a qualidade, segurança, saúde e meio ambiente em nossas operações.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="politica-alcool-drogas.html" class="apt-policy-card reveal reveal-delay-1">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Álcool, Drogas e Tabaco</h4>
+              <p>Diretrizes de conformidade e tolerância zero para proteção integral à vida.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="programa-gestao-ambiental.html" class="apt-policy-card reveal reveal-delay-2">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 16 8"/><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/><path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/><path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Programa de Gestão Ambiental</h4>
+              <p>Compromisso com a preservação do meio ambiente marítimo e práticas sustentáveis.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="atlas-z.html" class="apt-policy-card reveal reveal-delay-3">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Programa Atlas Z</h4>
+              <p>Metodologia avançada e compromisso contínuo para Zero Acidentes na navegação.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================== -->
+  <!-- RODAPÉ (FOOTER)                                                          -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        
+        <!-- Coluna 1: Sobre e Redes Sociais -->
+        <div class="footer-brand">
+          <a href="#hero" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia " />
+            <span class="header-logo-text">Galáxia <span></span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+          
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a></li>
+            <li><a href="codigo-conduta.html">Código de Conduta</a></li>
+            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
+            <li><a href="frota.html">Frota</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Segmentos de Atuação -->
+        <div class="footer-col">
+          <h4>Atuação</h4>
+          <ul>
+            <li><a href="index.html#servicos">Apoio Marítimo & Offshore</a></li>
+            <li><a href="index.html#servicos">Apoio Portuário</a></li>
+            <li><a href="index.html#servicos">Transporte de Cargas</a></li>
+            <li><a href="index.html#servicos">Especialidades Técnicas</a></li>
+            <li><a href="index.html#frota">Frota Operacional</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Contato -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p>Guarujá — São Paulo, Brasil</p>
+          </div>
+          
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <p>+55 (13) 3308-0000</p>
+          </div>
+          
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <p>contato@galaxiamaritima.com.br</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Direitos Autorais -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia . Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="i18n.js"></script>
+</body>
+</html>

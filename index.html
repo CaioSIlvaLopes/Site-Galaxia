@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- [EDITAR SEO & META TAGS]: Altere o título e descrição que aparecem nas abas e motores de busca -->
+  <title>Galáxia  — Navegando com Excelência no Apoio Marítimo e Logística</title>
+  <meta name="description" content="Galáxia  é uma Empresa Brasileira de Navegação (EBN) especializada em apoio marítimo, apoio portuário e logística. Navegando com segurança e compromisso desde 2002." />
+  <meta name="keywords" content="apoio marítimo, navegação, logística , apoio portuário, Galáxia , EBN" />
+  <meta name="author" content="Galáxia " />
+  
+  <link rel="stylesheet" href="style.css" />
+  <!-- [EDITAR ÍCONE DA ABA DO NAVEGADOR (FAVICON)] -->
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 01: CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                         -->
+  <!-- Dica de alteração: Aqui você altera o logo, o nome e os links de navegação -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+      
+      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
+      <a href="#hero" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
+      </a>
+
+      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="principios-eticos.html">Princípios Éticos</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 02: DESTAQUE PRINCIPAL (HERO SECTION)                              -->
+  <!-- Dica de alteração: Imagem de fundo, slogan principal e botões de ação      -->
+  <!-- ========================================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroCarousel">
+
+      <!-- [EDITAR CARROSSEL - SLIDE 1]: Navio THESEUS Z em navegação 
+      <div class="hero-slide active">
+        <img src="assets/images/hero-slide-1.png" alt="Embarcação THESEUS Z da Galáxia em navegação" />
+      </div>
+       [EDITAR CARROSSEL - SLIDE 2]: Navio THESEUS Z em porto/estaleiro 
+      <div class="hero-slide">
+        <img src="assets/images/hero-slide-2.png" alt="Embarcação THESEUS Z de apoio marítimo" />
+      </div>
+       [EDITAR CARROSSEL - SLIDE 3]: Navio PSV em alto mar 
+      <div class="hero-slide">
+        <img src="assets/images/hero-slide-3.png" alt="Navio de apoio marítimo da Galáxia  navegando ao pôr do sol" />
+      </div>-->
+
+      <!-- [EDITAR CARROSSEL - SLIDE 4]: GNL 1015 - Vista da proa -->
+      <div class="hero-slide active">
+        <img src="assets/images/hero-slide-4.jpg" alt="Embarcação GNL 1015 Rio de Janeiro - Vista da proa em navegação" />
+      </div>
+      <!-- [EDITAR CARROSSEL - SLIDE 5]: GNL 1015 - Vista lateral -->
+      <div class="hero-slide">
+        <img src="assets/images/hero-slide-5.jpg" alt="Embarcação GNL 1015 Rio de Janeiro - Vista lateral com equipamentos de convés" />
+      </div>
+
+      <!-- Setas de Navegação do Carrossel -->
+      <button class="carousel-arrow carousel-prev" id="prevSlide" aria-label="Slide anterior">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+      <button class="carousel-arrow carousel-next" id="nextSlide" aria-label="Próximo slide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+
+      <!-- Indicadores / Bolinhas (Dots) do Carrossel -->
+      <div class="carousel-indicators" id="carouselDots">
+        <button class="carousel-dot active" data-slide="0" aria-label="Ver Slide 1"></button>
+        <button class="carousel-dot" data-slide="1" aria-label="Ver Slide 2"></button>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="hero-content">
+        <!-- [EDITAR TÍTULO PRINCIPAL] -->
+        <h1 class="hero-title">Galáxia<br> O mar nos move. <span style="color: var(--accent-blue);">A excelência nos guia.</span></h1>
+        
+        <!-- [EDITAR SUBTÍTULO] -->
+        <p class="hero-subtitle">Navegando com Segurança e Compromisso para Fornecer Soluções de Alta Qualidade.</p>
+        
+        <!-- [EDITAR BOTÕES DE AÇÃO DO HERO] -->
+        <div class="hero-actions">
+          <a href="frota.html" class="btn btn-white">
+            Conheça Nossa Frota
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="fale-conosco.html" class="btn btn-ghost-white">
+            Entre em contato
+          </a>
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 03: QUEM SOMOS (SOBRE A EMPRESA)                                   -->
+  <!-- Dica de alteração: História da empresa, números em destaque e foto lateral -->
+  <!-- ========================================================================== -->
+  <section class="about" id="quem-somos">
+    <div class="container">
+      <div class="about-text reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>
+          Sobre a Empresa
+        </span>
+        
+        <!-- [EDITAR TÍTULO DA SEÇÃO QUEM SOMOS] -->
+        <h2 class="section-title">Quem Somos</h2>
+        
+        <!-- [EDITAR TEXTO HISTÓRICO DA EMPRESA] -->
+        <p>Fundada em maio de 2002, a Galáxia é uma Empresa Brasileira de Navegação (EBN), com foco principal na navegação de apoio marítimo. Com uma equipe de gestão altamente experiente, fornecemos um elevado padrão operacional, de acordo com as melhores práticas do mercado.</p>
+        
+        <!-- [EDITAR ESTATÍSTICAS EM DESTAQUE] -->
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">EBN</div>
+            <div class="stat-label">Empresa Brasileira</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Compromisso</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 28px;">
+          <a href="quem-somos.html" class="btn btn-primary">
+            Conhecer Trajetória Completa
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- [EDITAR IMAGEM LATERAL DO QUEM SOMOS] -->
+      <div class="about-image reveal reveal-delay-2">
+        <img src="assets/images/hero-slide-5.jpg" alt="Embarcação de apoio marítimo da Galáxia " />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 04: MISSÃO, VISÃO E VALORES (PILARES INSTITUCIONAIS)               -->
+  <!-- Dica de alteração: Cards com os valores corporativos e diretrizes          -->
+  <!-- ========================================================================== -->
+  <section class="mvv" id="missao">
+    <div class="container">
+      <span class="section-label reveal">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4"/><path d="M12 16V8"/></svg>
+        Nossos Pilares
+      </span>
+      <h2 class="section-title reveal">Missão, Visão e Valores</h2>
+
+      <div class="mvv-grid">
+        
+        <!-- [EDITAR CARD 1: MISSÃO] -->
+        <div class="mvv-card reveal reveal-delay-1">
+          <div class="mvv-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="m6.8 6.8 2.8 2.8"/><path d="m17.2 6.8-2.8 2.8"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M12 12v10"/><path d="M8 22h8"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Missão</h3>
+          <p>Atuar de maneira segura e rentável com responsabilidade social e ambiental, no setor de navegação de apoio marítimo, apoio portuário e logística.</p>
+        </div>
+
+        <!-- [EDITAR CARD 2: VISÃO] -->
+        <div class="mvv-card reveal reveal-delay-2">
+          <div class="mvv-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 10h4"/><path d="M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3"/><path d="M20 21a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2h-1V7"/><path d="M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3"/><path d="M4 21a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h1V7"/><path d="M9 12h1"/><path d="M14 12h1"/><circle cx="9" cy="18" r="3"/><circle cx="15" cy="18" r="3"/></svg>
+          </div>
+          <h3>Visão</h3>
+          <p>Ser reconhecida pela excelência na prestação de serviços nos segmentos de apoio marítimo, portuário e logística, no mercado nacional e internacional.</p>
+        </div>
+
+        <!-- [EDITAR CARD 3: VALORES] -->
+        <div class="mvv-card reveal reveal-delay-3">
+          <div class="mvv-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          </div>
+          <h3>Valores</h3>
+          <p>Comprometimento em assegurar a satisfação de nossos clientes prestando serviço de alta qualidade, confiabilidade, eficiência, disponibilidade e segurança de nossos colaboradores.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO ÁREAS DE ATUAÇÃO                                                   -->
+  <!-- ========================================================================== -->
+  <section class="areas-atuacao" id="areas-atuacao">
+    <div class="container">
+      <div class="areas-header reveal">
+        <span class="section-label section-label-light">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          Atuação Operacional
+        </span>
+        <h2 class="areas-title">Áreas de Atuação</h2>
+        <p class="areas-subtitle">Afretamento e Operação de embarcações destinadas a:</p>
+      </div>
+
+      <div class="areas-grid">
+        <!-- CARD 1 -->
+        <div class="area-card area-span-2 reveal reveal-delay-1">
+          <div>
+            <div class="area-card-top">
+              <div class="area-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M4 20V10l8-6 8 6v10"/><path d="M10 20v-6h4v6"/><path d="M12 4v4"/></svg>
+              </div>
+              <span class="area-number">01</span>
+            </div>
+            <h3>Suprimento de unidades offshore de exploração e produção</h3>
+          </div>
+          <p>Operação contínua de embarcações de apoio marítimo (PSV/AHTS) para transporte de cargas, água, combustível e equipamentos essenciais para plataformas offshore.</p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="area-card area-span-2 reveal reveal-delay-2">
+          <div>
+            <div class="area-card-top">
+              <div class="area-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><line x1="12" x2="12" y1="8" y2="22"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
+              </div>
+              <span class="area-number">02</span>
+            </div>
+            <h3>Reboque e manuseio de âncoras</h3>
+          </div>
+          <p>Operações especializadas em ancoragem, manobra de alta precisão, posicionamento dinâmico e reboque pesado de plataformas e unidades s.</p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="area-card area-span-2 reveal reveal-delay-3">
+          <div>
+            <div class="area-card-top">
+              <div class="area-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <span class="area-number">03</span>
+            </div>
+            <h3>Resposta rápida e recolhimento de óleo derramado</h3>
+          </div>
+          <p>Prontidão emergencial (OSRV) 24/7 com embarcações equipadas para contenção, recolhimento de vazamentos e proteção ambiental no mar.</p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="area-card area-span-3 reveal reveal-delay-1">
+          <div>
+            <div class="area-card-top">
+              <div class="area-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h3l2-6 4 12 3-8 2 4h6"/><circle cx="12" cy="12" r="10" stroke-opacity="0.2"/></svg>
+              </div>
+              <span class="area-number">04</span>
+            </div>
+            <h3>Monitoramento ambiental e sísmica</h3>
+          </div>
+          <p>Apoio a pesquisas oceanográficas, aquisição e levantamento de dados sísmicos de precisão e monitoramento contínuo da fauna e ecossistema marinho.</p>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="area-card area-span-3 reveal reveal-delay-2">
+          <div>
+            <div class="area-card-top">
+              <div class="area-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M20 12v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3"/><path d="M9 12V9a3 3 0 0 1 6 0v3"/></svg>
+              </div>
+              <span class="area-number">05</span>
+            </div>
+            <h3>Engenharia submarina</h3>
+          </div>
+          <p>Suporte de embarcações especializadas (RSV/ROV) para operações de inspeção, reparo, intervenção e manutenção em dutos e estruturas submarinas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 05: SERVIÇOS E FROTA (BLOCOS DE ATUAÇÃO)                           -->
+  <!-- Dica de alteração: Para adicionar ou alterar serviços prestados pela empresa -->
+  <!-- ========================================================================== -->
+  <section class="services" id="servicos">
+    <!-- Canvas de Fundo Animado Sutil (Ondas Marítimas) -->
+    <canvas id="canvas-servicos"></canvas>
+    <div class="container">
+      <div class="header-area reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          Nossos Serviços & Atuação
+        </span>
+        <h2 class="section-title">Soluções Integradas para o Setor Marítimo</h2>
+        <p class="section-subtitle">Oferecemos serviços especializados para atender às demandas do mercado de apoio marítimo, portuário e logística com excelência operacional.</p>
+      </div>
+
+      <div class="services-grid" id="frota">
+        
+        <!-- [EDITAR SERVIÇO 1: APOIO MARÍTIMO] -->
+        <a href="#contato" class="service-card reveal reveal-delay-1">
+          <div class="service-card-image">
+            <img src="assets/images/service-maritimo.png" alt="Apoio Marítimo — Navio de suprimentos operando junto a plataforma offshore" />
+          </div>
+          <div class="service-card-body">
+            <h3>Apoio Marítimo</h3>
+            <p>Operações de suporte a plataformas e unidades offshore com embarcações especializadas, garantindo segurança e eficiência em alto mar.</p>
+           
+          </div>
+        </a>
+
+        <!-- [EDITAR SERVIÇO 2: APOIO PORTUÁRIO] -->
+        <a href="#contato" class="service-card reveal reveal-delay-2">
+          <div class="service-card-image">
+            <img src="assets/images/service-portuario.png" alt="Apoio Portuário — Rebocador guiando navio em porto" />
+          </div>
+          <div class="service-card-body">
+            <h3>Apoio Portuário</h3>
+            <p>Serviços de reboque, manobra e suporte em operações portuárias com segurança operacional e atendimento às normas regulatórias.</p>
+            
+          </div>
+        </a>
+
+        <!-- [EDITAR SERVIÇO 3: LOGÍSTICA] -->
+        <a href="#contato" class="service-card reveal reveal-delay-3">
+          <div class="service-card-image">
+            <img src="assets/images/service-logistica.png" alt="Logística — Terminal portuário com contêineres e navios de carga" />
+          </div>
+          <div class="service-card-body">
+            <h3>Logística</h3>
+            <p>Soluções completas de logística integrada, otimizando a cadeia de suprimentos com eficiência e controle operacional.</p>
+            
+          </div>
+        </a>
+
+        <!-- [EDITAR SERVIÇO 4: FROTA ESPECIALIZADA] -->
+        <a href="frota.html" class="service-card reveal reveal-delay-4">
+          <div class="service-card-image">
+            <img src="assets/images/about-ship.png" alt="Frota Especializada — Embarcações de apoio marítimo e portuário" />
+          </div>
+          <div class="service-card-body">
+            <h3>Frota Especializada</h3>
+            <p>Afretamento e operação de embarcações de suporte e suprimentos preparadas para alta complexidade operacional em alto mar.</p>
+            
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 06: CHAMADA PARA AÇÃO E CONTATO (CTA & FORMULÁRIO)                 -->
+  <!-- Dica de alteração: E-mail de destino, campos do formulário e chamada       -->
+  <!-- ========================================================================== -->
+  <section class="cta-section" id="contato">
+    <div class="container">
+      <div class="cta-card reveal">
+        
+        <div class="cta-content">
+          <span class="section-label">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"/><rect width="18" height="18" x="3" y="4" rx="2"/><circle cx="12" cy="10" r="2"/><line x1="8" x2="8" y1="2" y2="4"/><line x1="16" x2="16" y1="2" y2="4"/></svg>
+            Parceria — Atendimento Comercial
+          </span>
+          
+          <!-- [EDITAR TEXTO DA CHAMADA DE CONTATO] -->
+          <h2>Pronto para Parceria?</h2>
+          <p>Entre em contato diretamente com a equipe comercial da Galáxia  e descubra como nossas soluções podem atender às demandas operacionais da sua frota ou terminal.</p>
+          
+          <div class="cta-actions">
+            <!-- [EDITAR E-MAIL DE CONTATO DIRETO NO BOTÃO] -->
+            <a href="fale-conosco.html" class="btn btn-white">
+              Fale Conosco
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulário Rápido de Contato -->
+        <div class="cta-form-wrapper">
+          <form class="cta-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+            <!-- [EDITAR CAMPOS DO FORMULÁRIO] -->
+            <input type="text" name="name" placeholder="Seu nome ou empresa" required />
+            <input type="email" name="email" placeholder="Seu e-mail profissional" required />
+            <input type="text" name="subject" placeholder="Assunto ou tipo de serviço" />
+            <textarea name="message" placeholder="Como podemos ajudar no seu projeto marítimo?" rows="4" required></textarea>
+            
+            <button type="submit" class="btn btn-white">
+              Enviar Mensagem
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 07: RODAPÉ (FOOTER)                                                -->
+  <!-- Dica de alteração: Endereços, telefones, redes sociais e direitos autorais -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        
+        <!-- Coluna 1: Sobre e Redes Sociais -->
+        <div class="footer-brand">
+          <a href="#hero" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia " />
+            <span class="header-logo-text">Galáxia <span></span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+          
+          <!-- [EDITAR LINKS DAS REDES SOCIAIS] -->
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a></li>
+            <li><a href="principios-eticos.html">Princípios Éticos</a></li>
+            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
+            <li><a href="frota.html">Frota</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Segmentos de Atuação -->
+        <div class="footer-col">
+          <h4>Soluções</h4>
+          <ul>
+            <li><a href="#areas-atuacao">Áreas de Atuação</a></li>
+            <li><a href="#servicos">Apoio Marítimo</a></li>
+            <li><a href="#servicos">Apoio Portuário</a></li>
+            <li><a href="#servicos">Logística Naval</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Informações de Contato -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          
+          <!-- [EDITAR ENDEREÇO DA EMPRESA] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p>Rio de Janeiro, RJ — Brasil</p>
+          </div>
+          
+          <!-- [EDITAR TELEFONE DA EMPRESA] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <p>+55 (21) 0000-0000</p>
+          </div>
+          
+          <!-- [EDITAR E-MAIL COMERCIAL] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <p>contato@galaxiamaritima.com.br</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Direitos Autorais -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia . Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 08: SCRIPTS E INTERATIVIDADE (JAVASCRIPT)                          -->
+  <!-- Dica de alteração: Comportamento do menu mobile, rolagem suave e animações -->
+  <!-- ========================================================================== -->
+  <script>
+    // 1. Efeito visual de fixação do cabeçalho no scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // 2. Abertura/Fechamento do menu em dispositivos móveis (Celulares/Tablets)
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      mainNav.classList.toggle('open');
+    });
+
+    mainNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('open');
+        mainNav.classList.remove('open');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-dropdown')) {
+        document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      }
+    });
+
+    // 3. Destaque do link ativo no menu ao rolar a página
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header-nav a');
+
+    function updateActiveNav() {
+      const scrollY = window.scrollY + 120;
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+
+        if (scrollY >= top && scrollY < top + height) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }
+    window.addEventListener('scroll', updateActiveNav);
+
+    // 4. Animações de surgimento ao rolar (Scroll Reveal)
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.08,
+      rootMargin: '0px 0px 0px 0px'
+    });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 5. Simulação de Envio de Formulário de Contato
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('button[type="submit"]');
+      const originalText = btn.innerHTML;
+
+      btn.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        Mensagem Enviada com Sucesso!
+      `;
+      btn.style.pointerEvents = 'none';
+
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.style.pointerEvents = '';
+        form.reset();
+      }, 3500);
+    }
+
+    // 6. Rolagem suave para links internos
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(targetId);
+        if (target) {
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // 7. Controle do Carrossel do Hero
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.getElementById('prevSlide');
+    const nextBtn = document.getElementById('nextSlide');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+      slides.forEach(s => s.classList.remove('active'));
+      dots.forEach(d => d.classList.remove('active'));
+      
+      currentSlide = (index + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() { showSlide(currentSlide + 1); }
+    function prevSlideFunc() { showSlide(currentSlide - 1); }
+
+    if (nextBtn && prevBtn) {
+      nextBtn.addEventListener('click', () => { nextSlide(); resetInterval(); });
+      prevBtn.addEventListener('click', () => { prevSlideFunc(); resetInterval(); });
+    }
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => { showSlide(idx); resetInterval(); });
+    });
+
+    function startInterval() {
+      slideInterval = setInterval(nextSlide, 5000); // Muda a cada 5 segundos
+    }
+    function resetInterval() {
+      clearInterval(slideInterval);
+      startInterval();
+    }
+
+    startInterval();
+
+    // ==========================================================================
+    // ANIMAÇÃO DE FUNDO SUTIL NA SEÇÃO SERVIÇOS (Ondas Marítimas Orgânicas)
+    // ==========================================================================
+    const canvasServicos = document.getElementById('canvas-servicos');
+    if (canvasServicos) {
+      const ctxServ = canvasServicos.getContext('2d');
+      const secaoServicos = canvasServicos.parentElement;
+
+      let largServ = canvasServicos.width = secaoServicos.offsetWidth;
+      let altServ = canvasServicos.height = secaoServicos.offsetHeight;
+
+      window.addEventListener('resize', () => {
+        largServ = canvasServicos.width = secaoServicos.offsetWidth;
+        altServ = canvasServicos.height = secaoServicos.offsetHeight;
+        initOndasServicos();
+      });
+
+      const numOndasServ = 26;
+      let ondasServ = [];
+      const paletaServ = [
+        { r: 44, g: 58, b: 92 },   // #2C3A5C - Primária
+        { r: 30, g: 40, b: 64 },   // #1E2840 - Escura
+        { r: 246, g: 176, b: 50 }, // #F6B032 - Laranja da Logo
+        { r: 61, g: 80, b: 125 }   // #3D507D - Azul Médio
+      ];
+
+      function initOndasServicos() {
+        ondasServ = [];
+        for (let i = 0; i < numOndasServ; i++) {
+          let corIndex = i % 4 === 0 ? 2 : (i % 3 === 0 ? 1 : (i % 2 === 0 ? 3 : 0));
+          let cor = paletaServ[corIndex];
+          ondasServ.push({
+            yBase: (altServ * 0.1) + ((i / numOndasServ) * (altServ * 0.85)),
+            espessura: 1.3 + Math.random() * 2.0,
+            opacidade: 0.06 + Math.random() * 0.0, // Opacidade ajustada para maior visibilidade sem prejudicar a leitura
+            cor: cor,
+            amp1: 25 + Math.random() * 45,
+            freq1: 0.0015 + Math.random() * 0.002,
+            vel1: 0.006 + Math.random() * 0.008,
+            amp2: 10 + Math.random() * 25,
+            freq2: 0.003 + Math.random() * 0.004,
+            vel2: -(0.004 + Math.random() * 0.01),
+            amp3: 4 + Math.random() * 12,
+            freq3: 0.008 + Math.random() * 0.01,
+            vel3: 0.012 + Math.random() * 0.015,
+            fase: Math.random() * Math.PI * 2
+          });
+        }
+      }
+
+      initOndasServicos();
+      let tempoServ = 0;
+
+      function animarServicos() {
+        ctxServ.clearRect(0, 0, largServ, altServ);
+        tempoServ += 1;
+
+        ondasServ.forEach((onda) => {
+          ctxServ.beginPath();
+          ctxServ.lineWidth = onda.espessura;
+          ctxServ.strokeStyle = `rgba(${onda.cor.r}, ${onda.cor.g}, ${onda.cor.b}, ${onda.opacidade})`;
+
+          let passo = 8;
+          for (let x = 0; x <= largServ + passo; x += passo) {
+            let y = onda.yBase 
+                  + Math.sin(x * onda.freq1 + tempoServ * onda.vel1 + onda.fase) * onda.amp1
+                  + Math.sin(x * onda.freq2 + tempoServ * onda.vel2 + onda.fase) * onda.amp2
+                  + Math.cos(x * onda.freq3 + tempoServ * onda.vel3 + onda.fase) * onda.amp3;
+
+            if (x === 0) {
+              ctxServ.moveTo(x, y);
+            } else {
+              ctxServ.lineTo(x, y);
+            }
+          }
+          ctxServ.stroke();
+        });
+
+        requestAnimationFrame(animarServicos);
+      }
+
+      animarServicos();
+    }
+  </script>
+  <script src="i18n.js"></script>
+</body>
+</html>

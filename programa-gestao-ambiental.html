@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programa de Gestão Ambiental — Galáxia </title>
+  <meta name="description" content="Programa de Gestão Ambiental da Galáxia. Iniciativas para prevenção de poluição, redução de consumo, descarte responsável e educação ambiental." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                                   -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+
+      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
+      <a href="index.html" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia  Logo" />
+      </a>
+
+      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle active" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="principios-eticos.html">Princípios Éticos</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html" class="active">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================== -->
+  <!-- CONTEÚDO PRINCIPAL                                                       -->
+  <!-- ========================================================================== -->
+  <main>
+
+    <!-- HERO LIMPO -->
+    <section class="apt-hero-minimal">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb" style="margin-bottom:32px;">
+          <a href="index.html">Home</a>
+          <span>&rsaquo;</span>
+          <a href="#">QSMS</a>
+          <span>&rsaquo;</span>
+          <span>Gestão Ambiental</span>
+        </nav>
+        <div class="apt-hero-minimal-inner reveal">
+          <h1 class="apt-minimal-title">Gestão<br><span style="color: #F6B032;">Ambiental</span></h1>
+          <div class="apt-minimal-rule"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORPO EDITORIAL -->
+    <section class="apt-editorial">
+      <div class="container">
+        <div class="apt-editorial-layout">
+
+          <!-- COLUNA DE CONTEÚDO -->
+          <div class="apt-editorial-body reveal">
+
+            <div class="apt-text-block">
+              <p class="apt-lead">A Galáxia acredita que o crescimento do apoio marítimo só faz sentido quando acompanhado pelo compromisso inegociável com a <strong>preservação dos oceanos e a sustentabilidade</strong>.</p>
+            </div>
+
+            <div class="apt-text-block">
+              <p>Nosso Programa de Gestão Ambiental atua de forma preventiva e sistemática, aplicando mecanismos para eliminação de desperdícios, redução de consumo de recursos naturais e controle rigoroso de poluição em todas as nossas embarcações e bases costeiras, assegurando uma operação limpa, competitiva e economicamente viável.</p>
+            </div>
+
+          </div>
+
+          <!-- COLUNA LATERAL -->
+          <aside class="apt-editorial-aside reveal reveal-delay-2">
+            <div class="apt-aside-card">
+              <div class="apt-aside-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 16 8"/><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/><path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/><path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94z"/></svg>
+              </div>
+              <h3>Sustentabilidade</h3>
+              <p>Prevenção ativa da poluição marinha, descarte responsável e preservação de recursos hídricos e energéticos.</p>
+              <div class="apt-aside-ref">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Ref: GLX-PRG-SGI-0018 / 03
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESSO / PILARES DO PROGRAMA -->
+    <section class="apt-process-minimal">
+      <div class="container">
+        <div class="apt-process-minimal-header reveal">
+          <span class="apt-overline">Estratégias e Metodologias</span>
+          <h2>Pilares do Programa</h2>
+        </div>
+
+        <div class="apt-steps-minimal">
+
+          <div class="apt-step-minimal reveal reveal-delay-1">
+            <div class="apt-step-num">01</div>
+            <div class="apt-step-content">
+              <h3>Prevenção e Controle de Poluição (PCP)</h3>
+              <p>Promovemos a destinação rigorosa de resíduos, trabalhando com empresas homologadas e licenciadas. Os resíduos perigosos são encaminhados exclusivamente a aterros industriais controlados, enquanto incentivamos a reciclagem, reutilização e triagem de materiais em todas as embarcações.</p>
+            </div>
+          </div>
+
+          <div class="apt-step-minimal reveal reveal-delay-2">
+            <div class="apt-step-num">02</div>
+            <div class="apt-step-content">
+              <h3>Redução de Consumo de Recursos Naturais</h3>
+              <p>Estimulamos o consumo consciente de água e combustível/energia em nossas rotinas. Por meio de informativos de bordo, campanhas e monitoramento de metas, engajamos tripulantes e colaboradores para evitar desperdícios operacionais e estender essa consciência às suas famílias.</p>
+            </div>
+          </div>
+
+          <div class="apt-step-minimal reveal reveal-delay-3">
+            <div class="apt-step-num">03</div>
+            <div class="apt-step-content">
+              <h3>Educação Ambiental & Sociedade</h3>
+              <p>Acreditamos que a consciência ecológica é construída pelo conhecimento. Desenvolvemos palestras e ações socioambientais em escolas e comunidades costeiras próximas às nossas operações, despertando em crianças e jovens atitudes de preservação do ecossistema marinho.</p>
+            </div>
+          </div>
+
+          <div class="apt-step-minimal reveal reveal-delay-1">
+            <div class="apt-step-num">04</div>
+            <div class="apt-step-content">
+              <h3>Controle e Monitoramento Contínuo</h3>
+              <p>A eficácia do Programa de Gestão Ambiental é gerida através de um cronograma estruturado de auditorias, checklists, indicadores de desempenho e atribuição clara de responsabilidades operacionais para cada embarcação e setor da empresa.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS DE POLÍTICAS QSMS -->
+    <section class="apt-policies-section">
+      <div class="container">
+        <div class="apt-policies-header reveal">
+          <span class="apt-overline">Sistema de Gestão Integrado</span>
+          <h2>Outras Políticas QSMS</h2>
+        </div>
+        <div class="apt-policies-grid">
+
+          <a href="autoridade-parar-trabalho.html" class="apt-policy-card reveal reveal-delay-1">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v4"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V5a2 2 0 0 0-4 0v9"/><path d="M6 14v-2a2 2 0 0 0-4 0v4c0 4.5 3.5 8 8 8h3c4.5 0 8-3.5 8-8V9a2 2 0 0 0-4 0v2"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Autoridade de Parar o Trabalho</h4>
+              <p>Direito e dever de interromper qualquer operação considerada insegura.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="principios-eticos.html" class="apt-policy-card reveal reveal-delay-2">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Princípios Éticos</h4>
+              <p>Valores e conduta que norteiam nossas relações e decisões operacionais.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="politica-qsms.html" class="apt-policy-card reveal reveal-delay-3">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Política de QSMS</h4>
+              <p>Compromisso com a qualidade, segurança, saúde e meio ambiente em nossas operações.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="politica-alcool-drogas.html" class="apt-policy-card reveal reveal-delay-1">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Política de Álcool, Drogas e Tabaco</h4>
+              <p>Normas de conduta para ambientes operacionais seguros e saudáveis.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+          <a href="responsabilidade-social.html" class="apt-policy-card reveal reveal-delay-2">
+            <div class="apt-policy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="apt-policy-text">
+              <h4>Política de ESG</h4>
+              <p>Responsabilidade social, ambiental e de governança integradas à nossa operação.</p>
+            </div>
+            <svg class="apt-policy-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================== -->
+  <!-- RODAPÉ (FOOTER)                                                          -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        
+        <!-- Coluna 1: Sobre e Redes Sociais -->
+        <div class="footer-brand">
+          <a href="#hero" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia " />
+            <span class="header-logo-text">Galáxia <span></span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+          
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a></li>
+            <li><a href="principios-eticos.html">Princípios Éticos</a></li>
+            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
+            <li><a href="frota.html">Frota</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Segmentos de Atuação -->
+        <div class="footer-col">
+          <h4>Atuação</h4>
+          <ul>
+            <li><a href="index.html#servicos">Apoio Marítimo & Offshore</a></li>
+            <li><a href="index.html#servicos">Apoio Portuário</a></li>
+            <li><a href="index.html#servicos">Transporte de Cargas</a></li>
+            <li><a href="index.html#servicos">Especialidades Técnicas</a></li>
+            <li><a href="index.html#frota">Frota Operacional</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Contato -->
+        <div class="footer-col footer-contact">
+          <h4>Fale Conosco</h4>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Guarujá — São Paulo, Brasil
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            contato@galaxiamaritima.com.br
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +55 (13) 3308-0000
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Direitos Autorais -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia . Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nossa Frota — Galáxia Marítima | Embarcações de Apoio e Logística</title>
+  <meta name="description" content="Conheça a frota de navios da Galáxia Marítima: Amazon Chieftain Z, Captain Nicholas Z, Apollo Z, Atlas Z, GNL 1022 e Theseus Z. Alta tecnologia e segurança em alto mar." />
+  <meta name="keywords" content="Frota Galáxia Marítima, Amazon Chieftain Z, Captain Nicholas Z, Apollo Z, Atlas Z, GNL 1022, Theseus Z, PSV, AHTS, apoio marítimo" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 01: CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                         -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+
+      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
+      <a href="index.html" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
+      </a>
+
+      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html" class="active">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="principios-eticos.html">Princípios Éticos</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 02: HERO DA PÁGINA (CABEÇALHO SIMPLIFICADO)                          -->
+  <!-- ========================================================================== -->
+  <section class="page-header fleet-header">
+    <div class="page-header-bg">
+      <img src="assets/images/frota/1015/GNL 1015..png" alt="Embarcação da Galáxia Marítima em navegação" />
+    </div>
+    <div class="container">
+      <div class="page-header-content">
+        <span class="section-label" style="color: var(--navy-200);">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>
+          Tecnologia & Operação Naval
+        </span>
+        <h1 class="page-title">Nossa Frota</h1>
+        <p class="page-subtitle">Conheça as embarcações que impulsionam nossas operações com segurança, eficiência e alta tecnologia em alto mar.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 03: GRID DE NAVIOS (GALERIA DE CARDS MODERNOS)                     -->
+  <!-- ========================================================================== -->
+  <section class="fleet-section" id="grid-frota">
+    <div class="container">
+      
+      <div class="fleet-intro reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Embarcações Especializadas
+        </span>
+        <h2 class="section-title">Frota em Destaque</h2>
+        <p class="section-subtitle">Nossas embarcações são mantidas sob rigorosos padrões internacionais de segurança e certificação EBN, prontas para missões offshore de alta complexidade.</p>
+      </div>
+
+      <!-- Grid Responsivo (1 col mobile, 2 col tablet, 3 col desktop) -->
+      <div class="fleet-grid">
+        
+        <!-- NAVIO 1: AMAZON CHIEFTAIN Z -->
+        <!-- [INTEGRAÇÃO DJANGO]: Em template Django, utilize: {% static 'assets/images/frota/image_b3b8ca.jpg' %} -->
+        <article class="fleet-card reveal reveal-delay-1">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/image_b3b8ca.jpg" alt="Navio AMAZON CHIEFTAIN Z da Galáxia Marítima" />
+            <span class="fleet-tag">Apoio Marítimo</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>EBN Certificada</span>
+              <span>Offshore</span>
+            </div>
+            <h3 class="fleet-ship-name">AMAZON CHIEFTAIN Z</h3>
+            <p class="fleet-ship-desc">Embarcação robusta e versátil projetada para operações contínuas de apoio marítimo e suprimento de plataformas em águas profundas.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=amazon-chieftain-z" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 2: CAPTAIN NICHOLAS Z -->
+        <article class="fleet-card reveal reveal-delay-2">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/Captain Nicholas Z/1.jpg" alt="Navio CAPTAIN NICHOLAS Z da Galáxia" />
+            <span class="fleet-tag">PSV / AHTS</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Alta Potência</span>
+              <span>Resgate & Suprimento</span>
+            </div>
+            <h3 class="fleet-ship-name">CAPTAIN NICHOLAS Z</h3>
+            <p class="fleet-ship-desc">Navio de alta capacidade operacional com tecnologia avançada de posicionamento dinâmico e suporte integral a missões em mar aberto.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=captain-nicholas-z" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 3: APOLLO Z -->
+        <article class="fleet-card reveal reveal-delay-3">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/Apollo Z/1.png" alt="Navio APOLLO Z da Galáxia navegando em alto mar" />
+            <span class="fleet-tag">Suporte Logístico</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Eficiência Energética</span>
+              <span>Longo Alcance</span>
+            </div>
+            <h3 class="fleet-ship-name">APOLLO Z</h3>
+            <p class="fleet-ship-desc">Embarcação desenhada para máxima estabilidade e agilidade na entrega de cargas e apoio logístico de emergência em instalações marítimas.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=apollo-z" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 4: GNL 1015 -->
+        <article class="fleet-card reveal reveal-delay-1">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/1015/GNL 1015.png" alt="Embarcação GNL 1015 da Galáxia" />
+            <span class="fleet-tag">Apoio MPSV</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Bandeira Brasileira</span>
+              <span>Multipropósito</span>
+            </div>
+            <h3 class="fleet-ship-name">GNL 1015</h3>
+            <p class="fleet-ship-desc">Navio de apoio multipropósito integrado à nossa frota nacional, ideal para missões de logística marinha, inspeção e suporte naval.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=gnl-1015" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 5: GNL 1022 -->
+        <article class="fleet-card reveal reveal-delay-2">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/image_b3b8ff.jpg" alt="Embarcação GNL 1022 da Galáxia" />
+            <span class="fleet-tag">Especializada</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Tecnologia GNL</span>
+              <span>Sustentável</span>
+            </div>
+            <h3 class="fleet-ship-name">GNL 1022</h3>
+            <p class="fleet-ship-desc">Unidade especializada equipada com os mais modernos sistemas de controle e adequação ambiental para operações logísticas específicas.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=gnl-1022" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 6: THESEUS Z -->
+        <article class="fleet-card reveal reveal-delay-3">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/Theseus Z/THESEUS Z.png" alt="Navio THESEUS Z da Galáxia cortando as ondas" />
+            <span class="fleet-tag">Destaque Operacional</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Posicionamento Dinâmico</span>
+              <span>Multi-Missão</span>
+            </div>
+            <h3 class="fleet-ship-name">THESEUS Z</h3>
+            <p class="fleet-ship-desc">Embarcação de ponta da nossa frota, aliando grande capacidade de carga de convés, velocidade e segurança inegociável para a tripulação.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=theseus-z" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NAVIO 6: ATLAS Z -->
+        <article class="fleet-card reveal reveal-delay-3">
+          <figure class="fleet-card-media">
+            <img src="assets/images/frota/Atlas Z/DJI_20251016134301_0030_W.JPG" alt="Navio ATLAS Z da Galáxia Marítima — foto aérea" />
+            <span class="fleet-tag">Apoio Marítimo</span>
+          </figure>
+          <div class="fleet-card-body">
+            <div class="fleet-card-meta">
+              <span>Foto Aérea</span>
+              <span>AHTS / Supply</span>
+            </div>
+            <h3 class="fleet-ship-name">ATLAS Z</h3>
+            <p class="fleet-ship-desc">Embarcação de apoio marítimo integrada à frota operacional da Galáxia, com imagens aéreas exclusivas registradas em operação real.</p>
+            <div class="fleet-card-footer">
+              <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
+              <a href="navio-detalhes.html?navio=atlas-z" class="btn-more-info">
+                Mais Informações
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD DE EXPANSÃO DA FROTA (CTA INTERNO) -->
+        <article class="fleet-card fleet-card-cta reveal reveal-delay-3">
+          <div class="fleet-cta-inner">
+            <div class="fleet-cta-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="16"/><line x1="8" x2="16" y1="12" y2="12"/></svg>
+            </div>
+            <h3>Soluções Customizadas para Sua Operação</h3>
+            <p>Precisa de especificações técnicas detalhadas ou fretamento dedicado? Nossa equipe planeja a alocação perfeita da nossa frota.</p>
+            <a href="index.html#contato" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              Consultar Disponibilidade
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 04: CHAMADA PARA AÇÃO (CTA COMERCIAL)                              -->
+  <!-- ========================================================================== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <div class="cta-banner-content">
+          <h2>Fretamento e Apoio Marítimo de Alta Confiabilidade</h2>
+          <p>Entre em contato com nossa diretoria comercial para solicitar cotações, especificações técnicas detalhadas (bollard pull, deck area) e disponibilidade da frota.</p>
+          <div class="cta-actions">
+            <a href="index.html#contato" class="btn btn-white">
+              Solicitar Orçamento da Frota
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 05: RODAPÉ (FOOTER)                                                -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia Marítima" />
+            <span class="header-logo-text">Galáxia <span>Marítima</span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+          
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a></li>
+            <li><a href="principios-eticos.html">Princípios Éticos</a></li>
+            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
+            <li><a href="frota.html">Frota</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Soluções</h4>
+          <ul>
+            <li><a href="index.html#areas-atuacao">Áreas de Atuação</a></li>
+            <li><a href="index.html#servicos">Apoio Marítimo</a></li>
+            <li><a href="index.html#servicos">Apoio Portuário</a></li>
+            <li><a href="index.html#servicos">Logística Naval</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p>Rio de Janeiro, RJ — Brasil</p>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <p>+55 (21) 0000-0000</p>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <p>contato@galaxiamaritima.com.br</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia Marítima. Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Efeito visual de opacidade do cabeçalho no scroll
+    const header = document.getElementById('header');
+    if (header) {
+      window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+      });
+    }
+
+    // Menu mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      mainNav.classList.toggle('open');
+    });
+
+    mainNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('open');
+        mainNav.classList.remove('open');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-dropdown')) {
+        document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      }
+    });
+
+    // Scroll Reveal
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.05,
+      rootMargin: '0px 0px 0px 0px'
+    });
+    revealElements.forEach(el => revealObserver.observe(el));
+  </script>
+  <script src="i18n.js"></script>
+</body>
+</html>
