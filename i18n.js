@@ -131,11 +131,6 @@
       "Supply of offshore exploration and production units",
     "Operação contínua de embarcações de apoio marítimo (PSV/AHTS) para transporte de cargas, água, combustível e equipamentos essenciais para plataformas offshore.":
       "Continuous operation of offshore support vessels (PSV/AHTS) for the transport of cargo, water, fuel, and essential equipment to offshore platforms.",
-    
-      
-    
-      
-
 
     // == Sessão Serviços e Apoio Marítimo ==
     "Apoio Logístico Marítimo": 
@@ -155,13 +150,10 @@
     // 5. QUEM SOMOS (QUEM-SOMOS.HTML)
     // =========================================================================
     
-    // == Sessão Título e Subtítulo da Página ==
     "Quem Somos - Galáxia Marítima": "About Us - Galáxia Marítima",
     "Tradição, Segurança e Liderança nas Águas Brasileiras": "Tradition, Safety, and Leadership in Brazilian Waters",
     "Conheça nossa trajetória, nossa excelência operacional e os princípios inegociáveis que guiam a Galáxia Marítima em cada milha navegada.":
       "Discover our trajectory, our operational excellence, and the non-negotiable principles that guide Galáxia Marítima every nautical mile navigated.",
-
-    // == Sessão Nossa História & Trajetória ==
     "Ano de Fundação": "Founded Year",
     "Certificação Brasileira": "Brazilian Certification",
     "Padrão Global": "Global Standard",
@@ -174,8 +166,6 @@
       "Our main focus and greatest strength lie in maritime support navigation, where we deliver robust and reliable solutions for our clients' offshore operational challenges.",
     "Para garantir resultados superiores, contamos com uma equipe de gestão altamente experiente e qualificada. Essa expertise nos permite fornecer um elevado padrão operacional, sempre em rigorosa conformidade com as melhores e mais seguras práticas do mercado global.":
       "To ensure superior results, we rely on a highly experienced and qualified management team. This expertise allows us to provide a high operational standard, always in strict compliance with the best and safest global market practices.",
-
-    // == Sessão Missão, Visão e Propósito Corporativo ==
     "Missão": "Mission",
     "“Atuar de maneira segura e rentável com responsabilidade social e ambiental, no setor de navegação de apoio marítimo, apoio portuário e logística.”":
       "“To operate safely and profitably with social and environmental responsibility in the maritime support navigation, port support, and logistics sector.”",
@@ -186,8 +176,6 @@
       "“To be recognized for excellence in providing services in the maritime support, port, and logistics segments, acting with leadership in both national and international markets.”",
     "Ser reconhecida entre as líderes de apoio marítimo no Brasil, destacando-se pela modernidade da frota, integridade operacional e valorização do capital humano.":
       "To be recognized among the top maritime support leaders in Brazil, standing out for fleet modernization, operational integrity, and human capital appreciation.",
-
-    // == Sessão Nossos Valores e Pilares de Excelência ==
     "Valores": "Values",
     "Para guiar nossas operações diárias e nosso crescimento futuro, baseamo-nos em pilares fundamentais sólidos que norteiam todas as nossas decisões.":
       "To guide our daily operations and future growth, we rely on solid fundamental pillars that direct all our decisions.",
@@ -201,16 +189,13 @@
       "Readiness to meet industry demands with agility, a fully prepared fleet, and optimized time and resource management.",
     "Proteção e cuidado inegociável com a vida, o meio ambiente e a integridade física de todos os nossos colaboradores.":
       "Non-negotiable protection and care for human life, the environment, and the physical integrity of all our employees.",
-    
-    // == Sessão Chamada Final (CTA) ==
     "Descubra nossas embarcações de apoio marítimo e portuário ou fale diretamente com nossos especialistas para planejar a logística da sua operação.":
       "Discover our maritime and port support vessels or speak directly with our specialists to plan your operational logistics.",
 
     // =========================================================================
-    // 6. FROTA & DETALHES DE EMBARCAÇÕES (FROTA.HTML & ATLAS-Z.HTML)
+    // 6. FROTA (FROTA.HTML)
     // =========================================================================
     
-    // == Sessão Apresentação da Frota ==
     "Conheça Nossa Frota": "Explore Our Fleet",
     "Conheça as embarcações que impulsionam nossas operações com segurança, eficiência e alta tecnologia em alto mar.":
       "Meet the modern vessels that drive our offshore operations with safety, efficiency, and high technology at sea.",
@@ -218,20 +203,14 @@
       "Our vessels are maintained under strict international safety standards and EBN certification, fully ready for high-complexity offshore missions.",
     "Embarcações modernas com tecnologia de ponta, projetadas para atender as mais exigentes operações na Bacia de Campos, Santos e Espírito Santo.":
       "Modern vessels featuring state-of-the-art technology, engineered to fulfill the most demanding offshore operations in the Campos, Santos, and Espírito Santo basins.",
-
-    // == Sessão Descrição dos Tipos de Navios (AHTS, PSV, OSRV) ==
     "Embarcação robusta e versátil projetada para operações contínuas de apoio marítimo e suprimento de plataformas em águas profundas.":
       "Robust and versatile vessel designed for continuous maritime support and offshore platform supply operations in deep waters.",
     "Navio de alta capacidade operacional com tecnologia avançada de posicionamento dinâmico e suporte integral a missões em mar aberto.":
       "High-capacity operational vessel with advanced dynamic positioning technology and full support for open-sea missions.",
     "Embarcação desenhada para máxima estabilidade e agilidade na entrega de cargas e apoio logístico de emergência em instalações marítimas.":
       "Vessel designed for maximum stability and agility in cargo delivery and emergency logistical support across offshore installations.",
-
-    // == Sessão Especificações Técnicas Completas (Data-Sheet) ==
     "Especificações Técnicas Completas & Data-Sheet": "Complete Technical Specifications & Data-Sheet",
     "Especificações Técnicas": "Technical Specifications",
-    
-    // == Sessão Atributos, Dimensões e Propulsão ==
     "Comprimento Total": "Overall Length",
     "Boca (Largura)": "Breadth (Width)",
     "Calado Máximo": "Maximum Draft",
@@ -247,18 +226,13 @@
     // 7. POLÍTICA DE ESG (POLITICA-ESG.HTML)
     // =========================================================================
     
-    // == Sessão Cabeçalho e Princípios ESG ==
     "Princípios e Compromissos da Galáxia": "Galáxia Principles and Commitments",
     "A GALÁXIA, empresa atuante no setor de navegação e serviços marítimos, reconhece a importância da integração dos princípios Ambientais, Sociais e de Governança (ESG) em suas operações, visando a sustentabilidade e a criação de valor para seus colaboradores, clientes, parceiros e demais partes interessadas.":
       "GALÁXIA, a leading company in navigation and maritime support services, recognizes the paramount importance of integrating Environmental, Social, and Governance (ESG) principles into its operations, driving sustainability and long-term value for its employees, clients, partners, and stakeholders.",
-    
-    // == Sessão Compromisso Socioambiental e Transparência ==
     "Nosso compromisso é conduzir os negócios com responsabilidade socioambiental, transparência e ética, minimizando impactos negativos, promovendo o desenvolvimento sustentável e garantindo a conformidade com as melhores práticas do setor marítimo.":
       "Our commitment is to conduct business with strict socio-environmental responsibility, transparency, and ethics, actively minimizing environmental footprint, promoting sustainable development, and ensuring compliance with global maritime best practices.",
     "Diretrizes operacionais e estratégicas para a condução sustentável de nossas atividades abaixo:":
       "Operational and strategic guidelines for the sustainable conduct of our corporate activities below:",
-    
-    // == Sessão As 3 Dimensões (Ambiental, Social e Governança) ==
     "Dimensão Ambiental (E - Environmental)": "Environmental Dimension (E)",
     "Dimensão Social (S - Social)": "Social Dimension (S)",
     "Governança Corporativa (G - Governance)": "Corporate Governance (G)",
@@ -267,37 +241,29 @@
     // 8. POLÍTICA DE QSMS (POLITICA-QSMS.HTML)
     // =========================================================================
     
-    // == Sessão Introdução e Propósito do QSMS ==
     "Política de Gestão Integrada (QSMS)": "Integrated Management Policy (QHSE)",
     "Qualidade, Segurança, Meio Ambiente e Saúde Ocupacional": "Quality, Health, Safety, and Environment",
     "A Galáxia estabelece esta Política de QSMS com o propósito de garantir a condução segura, sustentável e eficaz de todos os seus negócios e operações marítimas.":
       "Galáxia establishes this QHSE Policy to guarantee the safe, sustainable, and effective conduct of all its business and maritime operations.",
     "A GALÁXIA, empresa de navegação de apoio marítimo que atua em território nacional nas atividades de exploração e produção de petróleo, estabelece esta Política de QSMS com o propósito de garantir a condução segura, sustentável e eficaz de seus negócios. Nossos compromissos fundamentais estão baseados nas diretrizes das normas NBR ISO 9001, NBR ISO 14001, ISO 45001, ISM Code e ISPS Code:":
       "GALÁXIA, a maritime offshore support company operating nationwide in oil exploration and production activities, establishes this QHSE Policy with the purpose of ensuring the safe, sustainable, and effective conduct of its business. Our core commitments are grounded in the guidelines of NBR ISO 9001, NBR ISO 14001, ISO 45001, ISM Code, and ISPS Code standards:",
-
-    // == Sessão Compromissos e Normas Internacionais ==
     "Nossos compromissos fundamentais estão alinhados aos mais rigorosos padrões internacionais e baseados nas diretrizes das normas NBR ISO 9001, NBR ISO 14001, ISO 45001, ISM Code e ISPS Code, assegurando que a qualidade e a segurança da vida humana no mar sejam sempre a nossa prioridade máxima.":
       "Our core commitments are fully aligned with the strictest international standards and based on the guidelines of NBR ISO 9001, NBR ISO 14001, ISO 45001, ISM Code, and ISPS Code, ensuring that quality and safety of life at sea remain our highest priority.",
-    
-    // == Sessão Diretrizes de Segurança Operacional e Zero Acidentes ==
     "Excelência operacional, segurança de vidas no mar e conformidade rigorosa com normas internacionais.":
       "Operational excellence, safety of human life at sea, and strict compliance with global standards.",
     "Segurança operacional, proteção da vida e excelência na gestão ambiental em todas as nossas embarcações.":
       "Operational safety, protection of life, and excellence in environmental management across our vessels.",
 
     // =========================================================================
-    // 9. CÓDIGO DE CONDUTA E PRINCÍPIOS ÉTICOS (CODIGO-CONDUTA.HTML)
+    // 9. CÓDIGO DE CONDUTA (CODIGO-CONDUTA.HTML)
     // =========================================================================
     
-    // == Sessão Introdução e Base Moral do SGI ==
     "Código de Conduta - Galáxia Marítima": "Code of Conduct - Galáxia Marítima",
     "Código de Conduta": "Code of Conduct",
     "Nosso Código de Conduta estabelece os Princípios Éticos fundamentais que orientam o comportamento e as decisões institucionais de todos os colaboradores, lideranças, parceiros comerciais e terceirizados da Galáxia.":
       "Our Code of Conduct establishes the fundamental Ethical Principles that guide the behavior and institutional decisions of all employees, leadership, business partners, and contractors at Galáxia.",
     "O respeito inegociável à vida em todas as suas formas, a excelência em nossas operações marítimas e a conformidade irrestrita com a legalidade constituem a base moral de nosso Sistema de Gestão Integrado (SGI). Garantimos um ambiente de dignidade, confiança mútua e transparência absoluta.":
       "The non-negotiable respect for life in all its forms, operational excellence, and strict legal compliance form the moral foundation of our Integrated Management System (IMS). We guarantee an environment of dignity, mutual trust, and total transparency.",
-
-    // == Sessão Os 4 Pilares de Integridade da Galáxia ==
     "Os 4 Pilares de Integridade da Galáxia": "The 4 Pillars of Galáxia's Integrity",
     "Respeito à Vida, QSMS e Sustentabilidade": "Respect for Life, QHSE & Sustainability",
     "O respeito à vida em todas as suas formas, pautado pela Qualidade de Vida, Saúde, Meio Ambiente e Segurança nas operações marítimas.":
@@ -312,48 +278,215 @@
     "O mérito é o critério decisivo para todas as formas de reconhecimento, recompensa, promoção e valorização profissional dentro da nossa organização.":
       "Merit is the decisive criterion for all forms of recognition, reward, professional advancement, and appreciation within our organization.",
 
-    // == Sessão Diretrizes Detalhadas e Conduta Corporativa ==
-    "1. O respeito à vida em todas as suas formas, pautado pela Qualidade de Vida, Saúde, Meio Ambiente e Segurança;":
-      "1. Respect for life in all its forms, guided by Quality of Life, Health, Environment, and Safety;",
-    "2. A integridade, a verdade, a honestidade, a justiça, a equidade, a lealdade, a responsabilidade, o zelo, o mérito, a transparência, a legalidade, a impessoalidade e a coerência entre o discurso e a prática;":
-      "2. Integrity, truth, honesty, fairness, equity, loyalty, responsibility, diligence, merit, transparency, legality, impartiality, and strict coherence between speech and practice;",
-    "3. O respeito às diferenças e diversidades de condição étnica, religiosa, social, cultural, linguística, convicção filosófica ou política, estética, etária, física, mental e psíquica, de gênero, de orientation sexual e outras, referenciam as relações interpessoais com clientes internos e externos, que garantem um ambiente saudável, com confiança mútua, cooperação, solidariedade, dignidade e respeito;":
-      "3. Respect for differences and diversity across all conditions guide interpersonal relationships with internal and external clients, guaranteeing a healthy environment with mutual trust, cooperation, solidarity, dignity, and respect;",
-    "4. O mérito é o critério decisivo para todas as formas":
-      "4. Merit is the decisive criterion for all forms of professional recognition and career development",
-    "A integridade, a equidade, a impessoalidade e a coerência entre o discurso e a prática são compromissos inegociáveis de toda a equipe.":
-      "Integrity, fairness, impartiality, and strict coherence between speech and action are non-negotiable commitments of our entire team.",
-    "O mérito é o critério decisivo para todas as formas de reconhecimento, recompensa, avaliação e investimento em pessoas, sendo o favorecimento e o nepotismo inaceitáveis;":
-      "Merit is the decisive criterion for all forms of recognition, reward, evaluation, and investment in people, making favoritism and nepotism completely unacceptable;",
-    "A legalidade e a impessoalidade, princípios constitucionais, determinam a distinção entre interesses pessoais e profissionais, na conduta dos colaboradores da Galáxia;":
-      "Legality and impartiality determine the clear distinction between personal and professional interests in the conduct of Galáxia's employees;",
-    "As atividades do nosso negócio são desenvolvidas, reconhecendo e valorizando os interesses e direitos de todas as partes interessadas;":
-      "Our business operations are developed recognizing and valuing the interests and rights of all stakeholders;",
-    "A atuação proativa em busca de níveis crescentes de competitividade, excelência e rentabilidade, com responsabilidade social e ambiental, contribuem para o desenvolvimento sustentável do país, conduzindo nosso negócio com integridade e nos moldes da lei;":
-      "Proactive performance in search of increasing levels of competitiveness, excellence, and profitability, alongside socio-environmental responsibility, contributes to the sustainable development of the country while conducting our business with strict legal integrity;",
-    "A busca da excelência em Qualidade, Segurança, Meio Ambiente, Saúde e Recursos Humanos, promovem a educação, a capacitação e o comprometimento dos colaboradores, com uma cidadania global e responsável.":
-      "The pursuit of excellence in Quality, Safety, Environment, Health, and Human Resources promotes the education, training, and commitment of employees toward global citizenship.",
-
     // =========================================================================
-    // 10. AUTORIDADE DE PARAR O TRABALHO - APT (AUTORIDADE-PARAR-TRABALHO.HTML)
+    // 10. AUTORIDADE DE PARAR O TRABALHO (AUTORIDADE-PARAR-TRABALHO.HTML)
     // =========================================================================
     
-    // == Sessão O Poder e a Obrigação de Parar o Trabalho ==
     "O Poder e a Obrigação de Parar o Trabalho": "The Authority and Obligation to Stop Work",
     "A Segurança de Todas as Vidas em Primeiro Lugar": "Safety of All Lives First",
     "A Galáxia estabelece a \"Autoridade e Obrigação\" de qualquer indivíduo suspender uma única tarefa ou operação de grupo quando o controle de risco de SMS não está claramente estabelecido ou compreendido.":
       "Galáxia establishes the \"Authority and Obligation\" of any individual to stop a single task or group operation whenever HSE risk controls are not clearly established or understood.",
     "Todos os colaboradores da Galáxia e de empresas parceiras têm a autoridade incondicional e o dever de interromper qualquer atividade ou tarefa se perceberem risco iminente de acidente, lesão, dano ambiental ou comprometimento operacional.":
       "All employees of Galáxia and partner companies have the unconditional authority and strict obligation to stop any activity or task immediately upon observing an imminent risk of accident, personal injury, environmental damage, or operational hazard.",
-    "Todos os funcionários, da empresa e terceirizados, têm o poder e espera-se que parem o trabalho de colegas ou de contratados se houver qualquer risco à segurança pessoal, risco ambiental, danos materiais ou à reputação da Empresa.":
-      "All employees, internal or contractors, have the unconditional authority and are expected to stop the work of colleagues or contractors if there is any risk to personal safety, environmental hazard, property damage, or company reputation.",
-
-    // == Sessão Etapas do Fluxo de Parada ==
     "Etapas do Fluxo de Parada": "Stop Work Flow Steps",
     "1. Identificar o Risco": "1. Identify the Hazard",
     "2. Interromper a Atividade": "2. Stop the Activity",
     "3. Comunicar a Supervisão": "3. Notify Supervision",
     "4. Corrigir e Retomar com Segurança": "4. Correct & Resume Safely",
+    "Qualquer colaborador tem o direito e o dever de interromper qualquer operação que considere insegura — sem receio de represálias.":
+      "Any employee has the unconditional right and duty to stop any operation deemed unsafe — without any fear of retaliation.",
+
+    // =========================================================================
+    // 11. PROGRAMA DE GESTÃO AMBIENTAL (PROGRAMA-GESTAO-AMBIENTAL.HTML)
+    // =========================================================================
+    
+    "Programa de Gestão Ambiental (PGA)": "Environmental Management Program (EMP)",
+    "Programa de Gestão Ambiental (PGA) - Galáxia Marítima": "Environmental Management Program (EMP) - Galáxia Marítima",
+    "Preservação dos Oceanos e Sustentabilidade Offshore": "Ocean Conservation and Offshore Sustainability",
+    "Comprometidos com a proteção dos oceanos e a minimização de resíduos gerados durante as operações marítimas e portuárias.":
+      "Committed to protecting ocean ecosystems and minimizing waste generation throughout our offshore maritime and port operations.",
+    "Mitigação e Proteção dos Oceanos": "Ocean Protection & Mitigation",
+    "A Galáxia Marítima orienta suas atividades pelo rigoroso cumprimento das normas ambientais internacionais (MARPOL) e regulamentações da Marinha do Brasil, priorizando a prevenção da poluição marinha.":
+      "Galáxia Marítima guides its operations by strict compliance with international environmental standards (MARPOL) and Brazilian Navy regulations, prioritizing the total prevention of marine pollution.",
+    "Gerenciamento Zero Resíduos": "Zero Waste Management",
+    "Monitoramento e controle estrito de resíduos sólidos e oleosos, garantindo descarte zero no mar e encaminhamento adequado em terra através de parceiros certificados.":
+      "Strict monitoring and control of solid and oily waste, ensuring zero discharge at sea and proper onshore disposal through certified environmental partners.",
+    "Descarbonização e Eficiência Energética": "Decarbonization & Energy Efficiency",
+    "Investimento contínuo na otimização de rotas offshore e manutenção preventiva de motores para redução de emissões de Gases de Efeito Estufa (GEE).":
+      "Continuous investment in offshore route optimization and preventive engine maintenance to steadily reduce Greenhouse Gas (GHG) emissions.",
+
+    // =========================================================================
+    // 12. PROGRAMA DE QUALIDADE DE VIDA (PROGRAMA-QUALIDADE-VIDA.HTML)
+    // =========================================================================
+    
+    "Programa de Qualidade de Vida (PQV)": "Quality of Life Program (QLP)",
+    "Um programa voltado à saúde e a qualidade de vida no trabalho para nossos colaboradores, com o intuito de tornar a empresa mais saudável, competitiva e produtiva.":
+      "A dedicated workplace health and quality of life program for our employees, designed to make the company healthier, more competitive, and highly productive.",
+    "Foco na Saúde & Segurança": "Focus on Health & Safety",
+    "Tolerância ao Desgaste / Fadiga": "Tolerance for Strain / Fatigue",
+    "Cuidado Integral (Onshore & Offshore)": "Comprehensive Care (Onshore & Offshore)",
+    "Competitividade & Produtividade": "Competitiveness & Productivity",
+
+    // =========================================================================
+    // 13. RESPONSABILIDADE SOCIAL (RESPONSABILIDADE-SOCIAL.HTML)
+    // =========================================================================
+    
+    "A responsabilidade social é parte integrante das políticas e do DNA da Galáxia Marítima.":
+      "Social responsibility is an integral part of the policies and corporate DNA of Galáxia Marítima.",
+    "Repudiamos e combatemos o trabalho infantil e escravo.":
+      "We strictly reject and combat child and forced labor across our entire supply chain.",
+    "Rejeitamos qualquer discriminação racial, social e religiosa.":
+      "We reject any form of racial, social, religious, or gender discrimination.",
+    "Buscamos transparência e honestidade em nossas relações com parceiros, investidores, fornecedores e colaboradores.":
+      "We pursue transparency and absolute honesty in our relationships with partners, investors, suppliers, and employees.",
+
+    // =========================================================================
+    // 14. POLÍTICA DE ÁLCOOL, DROGAS E TABACO (POLITICA-ALCOOL-DROGAS.HTML)
+    // =========================================================================
+    
+    "Política de Álcool, Drogas e Tabaco": "Alcohol, Drugs, and Tobacco Policy",
+    "Tolerância Zero para Risco e Fadiga Operacional": "Zero Tolerance for Operational Risk and Impairment",
+    "A Galáxia reconhece que o consumo de álcool e uso de drogas ilegais é prejudicial à saúde e estabelece que a posse, venda, distribuição e consumo de quaisquer dessas substâncias nas instalações e embarcações é estritamente proibida pela Alta Administração.":
+      "Galáxia recognizes that alcohol and illegal drug consumption is harmful to human health and strictly establishes that the possession, sale, distribution, or consumption of such substances across any vessels or corporate premises is strictly forbidden by Senior Management.",
+    "A Galáxia, empresa de navegação de apoio marítimo, atuando nas atividades de exploração e produção de petróleo, estabelece esta Política na condução dos seus negócios, através dos seguintes princípios e compromissos:":
+      "Galáxia, a maritime offshore support company operating in oil exploration and production activities, establishes this Policy in the conduct of its business through the following principles and commitments:",
+    "Adota esta Política visando responsabilidade social, segurança e bem-estar de vidas, patrimônio e meio ambiente, como garantia de trabalhos executados nos mais altos padrões de segurança e eficiência.":
+      "Adopts this Policy seeking social responsibility, safety, and well-being of human life, corporate assets, and the environment as a guarantee of operations executed to the highest standards of safety and efficiency.",
+    "Incorpora esta Política, os Termos e Condições de Contratação de todos os colaboradores da Galáxia. A quebra destas diretrizes estará sujeita a procedimentos disciplinares.":
+      "Incorporates this Policy into the Terms and Conditions of Employment of all Galáxia staff. Any breach of these strict guidelines will be subject to disciplinary procedures.",
+
+    // =========================================================================
+    // 15. FALE CONOSCO (FALE-CONOSCO.HTML)
+    // =========================================================================
+    
+    "Fale Conosco - Galáxia Marítima": "Contact Us - Galáxia Marítima",
+    "Entre em Contato com a Galáxia": "Get in Touch with Galáxia",
+    "Estamos à disposição para atender suas necessidades de navegação e apoio marítimo offshore.":
+      "We are ready to support all your offshore navigation and maritime support operational requirements.",
+    "Endereço e Bases Operacionais": "Address & Operational Bases",
+    "Macaé - RJ (Base Operacional)": "Macaé - RJ (Operational Base)",
+    "Rio de Janeiro - RJ (Escritório Central)": "Rio de Janeiro - RJ (Headquarters)",
+    "Telefone & Contato": "Phone & Contact Info",
+    "Ouvidoria & Canal de Ética": "Ombudsman & Ethics Channel",
+    "Envie uma Mensagem": "Send Us a Message",
+    "Nome Completo": "Full Name",
+    "Seu e-mail corporativo": "Your corporate email",
+    "Empresa": "Company",
+    "Assunto": "Subject",
+    "Mensagem": "Message",
+
+    // =========================================================================
+    // 16. STRINGS COMUNS / COMPLEMENTARES (TODAS AS PÁGINAS)
+    // =========================================================================
+
+    // == Footer ==
+    "Navegação": "Navigation",
+    "Soluções": "Solutions",
+    "Contato": "Contact",
+    "© 2026 Galáxia Marítima. Todos os direitos reservados.": "© 2026 Galáxia Marítima. All rights reserved.",
+    "© 2026 Galáxia . Todos os direitos reservados.": "© 2026 Galáxia . All rights reserved.",
+    "Logística Naval": "Naval Logistics",
+    "Fale Conosco": "Contact Us",
+
+    // == Fleet Status & Meta Tags ==
+    "Em Operação": "In Operation",
+    "EBN Certificada": "EBN Certified",
+    "Alta Potência": "High Power",
+    "Resgate & Suprimento": "Rescue & Supply",
+    "Eficiência Energética": "Energy Efficiency",
+    "Longo Alcance": "Long Range",
+    "Bandeira Brasileira": "Brazilian Flag",
+    "Multipropósito": "Multi-Purpose",
+    "Tecnologia GNL": "LNG Technology",
+    "Sustentável": "Sustainable",
+    "Posicionamento Dinâmico": "Dynamic Positioning",
+    "Multi-Missão": "Multi-Mission",
+    "Foto Aérea": "Aerial Photo",
+    "Embarcações Especializadas": "Specialized Vessels",
+    "Frota em Destaque": "Featured Fleet",
+    "PSV / AHTS": "PSV / AHTS",
+    "Suporte Logístico": "Logistics Support",
+    "Apoio MPSV": "MPSV Support",
+    "Especializada": "Specialized",
+    "Destaque Operacional": "Operational Highlight",
+    "Mais Informações": "More Information",
+    "Consultar Disponibilidade": "Check Availability",
+    "Solicitar Orçamento da Frota": "Request Fleet Quote",
+
+    // == Fleet Descriptions ==
+    "Navio de apoio multipropósito integrado à nossa frota nacional, ideal para missões de logística marinha, inspeção e suporte naval.":
+      "Multi-purpose support vessel integrated into our national fleet, ideal for marine logistics, inspection, and naval support missions.",
+    "Unidade especializada equipada com os mais modernos sistemas de controle e adequação ambiental para operações logísticas específicas.":
+      "Specialized unit equipped with the most modern control and environmental compliance systems for specific logistics operations.",
+    "Embarcação de ponta da nossa frota, aliando grande capacidade de carga de convés, velocidade e segurança inegociável para a tripulação.":
+      "The flagship of our fleet, combining large deck cargo capacity, speed, and non-negotiable crew safety.",
+    "Embarcação de apoio marítimo integrada à frota operacional da Galáxia, com imagens aéreas exclusivas registradas em operação real.":
+      "Maritime support vessel integrated into Galáxia's operational fleet, with exclusive aerial images captured during real operations.",
+
+    // == Fleet CTA ==
+    "Soluções Customizadas para Sua Operação": "Custom Solutions for Your Operation",
+    "Precisa de especificações técnicas detalhadas ou fretamento dedicado? Nossa equipe planeja a alocação perfeita da nossa frota.":
+      "Need detailed technical specifications or dedicated chartering? Our team plans the perfect fleet allocation for your project.",
+    "Fretamento e Apoio Marítimo de Alta Confiabilidade": "High-Reliability Chartering and Maritime Support",
+    "Entre em contato com nossa diretoria comercial para solicitar cotações, especificações técnicas detalhadas (bollard pull, deck area) e disponibilidade da frota.":
+      "Contact our commercial directorate to request quotations, detailed technical specifications (bollard pull, deck area) and fleet availability.",
+    "Tecnologia & Operação Naval": "Technology & Naval Operations",
+
+    // == Home Services ==
+    "Nossos Serviços & Atuação": "Our Services & Operations",
+    "Soluções Integradas para o Setor Marítimo": "Integrated Solutions for the Maritime Sector",
+    "Oferecemos serviços especializados para atender às demandas do mercado de apoio marítimo, portuário e logística com excelência operacional.":
+      "We offer specialized services to meet the demands of the maritime support, port, and logistics market with operational excellence.",
+    "Operações de suporte a plataformas e unidades offshore com embarcações especializadas, garantindo segurança e eficiência em alto mar.":
+      "Support operations for platforms and offshore units with specialized vessels, ensuring safety and efficiency on the high seas.",
+    "Serviços de reboque, manobra e suporte em operações portuárias com segurança operacional e atendimento às normas regulatórias.":
+      "Towing, maneuvering, and support services in port operations with operational safety and regulatory compliance.",
+    "Soluções completas de logística integrada, otimizando a cadeia de suprimentos com eficiência e controle operacional.":
+      "Complete integrated logistics solutions, optimizing the supply chain with efficiency and operational control.",
+    "Afretamento e operação de embarcações de suporte e suprimentos preparadas para alta complexidade operacional em alto mar.":
+      "Chartering and operation of support and supply vessels prepared for high operational complexity on the high seas.",
+    "Logística": "Logistics",
+    "Frota Especializada": "Specialized Fleet",
+
+    // == Home CTA ==
+    "Parceria — Atendimento Comercial": "Partnership — Commercial Support",
+    "Pronto para Parceria?": "Ready for a Partnership?",
+    "Entre em contato diretamente com a equipe comercial da Galáxia  e descubra como nossas soluções podem atender às demandas operacionais da sua frota ou terminal.":
+      "Contact the Galáxia commercial team directly and discover how our solutions can meet the operational demands of your fleet or terminal.",
+
+    // == Home Areas de Atuação ==
+    "Reboque e manuseio de âncoras": "Towing and anchor handling",
+    "Operações especializadas em ancoragem, manobra de alta precisão, posicionamento dinâmico e reboque pesado de plataformas e unidades s.":
+      "Specialized operations in anchoring, high-precision maneuvering, dynamic positioning, and heavy towing of platforms and offshore units.",
+    "Resposta rápida e recolhimento de óleo derramado": "Rapid response and oil spill recovery",
+    "Prontidão emergencial (OSRV) 24/7 com embarcações equipadas para contenção, recolhimento de vazamentos e proteção ambiental no mar.":
+      "24/7 emergency readiness (OSRV) with vessels equipped for containment, spill recovery, and marine environmental protection.",
+    "Monitoramento ambiental e sísmica": "Environmental monitoring and seismic surveys",
+    "Apoio a pesquisas oceanográficas, aquisição e levantamento de dados sísmicos de precisão e monitoramento contínuo da fauna e ecossistema marinho.":
+      "Support for oceanographic research, precision seismic data acquisition and surveying, and continuous monitoring of marine fauna and ecosystems.",
+    "Engenharia submarina": "Subsea engineering",
+    "Suporte de embarcações especializadas (RSV/ROV) para operações de inspeção, reparo, intervenção e manutenção em dutos e estruturas submarinas.":
+      "Support of specialized vessels (RSV/ROV) for inspection, repair, intervention, and maintenance operations on subsea pipelines and structures.",
+    "Conheça Nossa Frota": "Explore Our Fleet",
+    "Entre em contato": "Get in Touch",
+
+    // == Responsabilidade Social ==
+    "Valores que orientam cada decisão e cada operação da Galáxia Marítima, refletindo nosso compromisso inabalável com a sociedade e o planeta.":
+      "Values that guide every decision and every operation at Galáxia Marítima, reflecting our unwavering commitment to society and the planet.",
+    "Investimos na segurança e saúde de nossos funcionários.":
+      "We continuously invest in the occupational safety, health, and well-being of our employees.",
+    "Garantimos o desenvolvimento sustentável, protegendo o meio ambiente para gerações futuras.":
+      "We ensure sustainable development, actively protecting the marine environment for future generations.",
+    "Respeitamos e praticamos a transparência e a igualdade salarial entre mulheres e homens.":
+      "We respect and actively practice transparency and equal pay between women and men across all levels.",
+    "A Galáxia trabalha em harmonia com o meio ambiente, adotando práticas e tecnologias modernas, tornando as operações mais eficientes, a fim de minimizar os impactos ambientais.":
+      "Galáxia works in harmony with the environment by adopting modern practices and technologies, making operations more efficient to minimize environmental impact.",
+    "Clique abaixo para acessar o relatório emitido pelo MTE — Ministério do Trabalho e Emprego, reafirmando nosso compromisso com a igualdade e a transparência.":
+      "Click below to access the official report issued by the Brazilian Ministry of Labor and Employment (MTE), reaffirming our commitment to equity and transparency.",
+
+    // == Autoridade de Parar o Trabalho - Complementar ==
+    "Todos os funcionários, da empresa e terceirizados, têm o poder e espera-se que parem o trabalho de colegas ou de contratados se houver qualquer risco à segurança pessoal, risco ambiental, danos materiais ou à reputação da Empresa.":
+      "All employees, internal or contractors, have the unconditional authority and are expected to stop the work of colleagues or contractors if there is any risk to personal safety, environmental hazard, property damage, or company reputation.",
     "Em termos gerais, o processo de Autoridade de Parar o Trabalho envolve uma parada, notificação, correção e retomada da abordagem para a resolução de uma condição percebida como insegura, um ato, erro, omissão, ou falta de compreensão que poderia resultar em um evento indesejado. A Autoridade de Parar o Trabalho deve ser usada conforme a metodologia descrita no procedimento.":
       "In general terms, the Stop Work Authority process involves stopping, notifying, correcting, and resuming operations to resolve any condition perceived as unsafe, an act, error, omission, or lack of understanding that could result in an undesired event. Stop Work Authority must be exercised according to formal procedural methodology.",
     "Identificação imediata da condição insegura, ato subpadrão ou dúvida técnica. O colaborador suspende a tarefa e alerta a equipe ao redor.":
@@ -364,10 +497,6 @@
       "Joint HSE risk assessment, root cause investigation, and immediate implementation of necessary protective controls and barriers.",
     "Verificação das correções aplicadas e autorização formal pelo supervisor responsável para o reinício seguro e consciente das atividades.":
       "Verification of applied corrective actions and formal authorization by the responsible supervisor for the safe and conscious resumption of activities.",
-
-    // == Sessão Garantia Contra Represálias e Prontidão ==
-    "Qualquer colaborador tem o direito e o dever de interromper qualquer operação que considere insegura — sem receio de represálias.":
-      "Any employee has the unconditional right and duty to stop any operation deemed unsafe — without any fear of retaliation.",
     "Obrigação e direito de interromper imediatamente qualquer operação percebida como insegura.":
       "Authority and strict obligation to immediately stop any operation perceived as unsafe.",
     "Direito e dever de interromper qualquer operação considerada insegura.":
@@ -399,49 +528,33 @@
     "Prevenção de poluição e redução do consumo de recursos em nossas embarcações.":
       "Pollution prevention and resource consumption optimization across our fleet.",
 
-    // =========================================================================
-    // 11. PROGRAMA DE GESTÃO AMBIENTAL - PGA (PROGRAMA-GESTAO-AMBIENTAL.HTML)
-    // =========================================================================
-    
-    // == Sessão Preservação dos Oceanos e Sustentabilidade ==
-    "Programa de Gestão Ambiental (PGA)": "Environmental Management Program (EMP)",
-    "Programa de Gestão Ambiental (PGA) - Galáxia Marítima": "Environmental Management Program (EMP) - Galáxia Marítima",
-    "Preservação dos Oceanos e Sustentabilidade Offshore": "Ocean Conservation and Offshore Sustainability",
-    "Comprometidos com a proteção dos oceanos e a minimização de resíduos gerados durante as operações marítimas e portuárias.":
-      "Committed to protecting ocean ecosystems and minimizing waste generation throughout our offshore maritime and port operations.",
-    "Nossa Gestão e Compromisso Ambiental": "Our Environmental Management & Commitment",
+    // == Código de Conduta - Diretrizes Detalhadas ==
+    "1. O respeito à vida em todas as suas formas, pautado pela Qualidade de Vida, Saúde, Meio Ambiente e Segurança;":
+      "1. Respect for life in all its forms, guided by Quality of Life, Health, Environment, and Safety;",
+    "2. A integridade, a verdade, a honestidade, a justiça, a equidade, a lealdade, a responsabilidade, o zelo, o mérito, a transparência, a legalidade, a impessoalidade e a coerência entre o discurso e a prática;":
+      "2. Integrity, truth, honesty, fairness, equity, loyalty, responsibility, diligence, merit, transparency, legality, impartiality, and strict coherence between speech and practice;",
+    "3. O respeito às diferenças e diversidades de condição étnica, religiosa, social, cultural, linguística, convicção filosófica ou política, estética, etária, física, mental e psíquica, de gênero, de orientation sexual e outras, referenciam as relações interpessoais com clientes internos e externos, que garantem um ambiente saudável, com confiança mútua, cooperação, solidariedade, dignidade e respeito;":
+      "3. Respect for differences and diversity across all conditions guide interpersonal relationships with internal and external clients, guaranteeing a healthy environment with mutual trust, cooperation, solidarity, dignity, and respect;",
+    "4. O mérito é o critério decisivo para todas as formas":
+      "4. Merit is the decisive criterion for all forms of professional recognition and career development",
+    "A integridade, a equidade, a impessoalidade e a coerência entre o discurso e a prática são compromissos inegociáveis de toda a equipe.":
+      "Integrity, fairness, impartiality, and strict coherence between speech and action are non-negotiable commitments of our entire team.",
+    "O mérito é o critério decisivo para todas as formas de reconhecimento, recompensa, avaliação e investimento em pessoas, sendo o favorecimento e o nepotismo inaceitáveis;":
+      "Merit is the decisive criterion for all forms of recognition, reward, evaluation, and investment in people, making favoritism and nepotism completely unacceptable;",
+    "A legalidade e a impessoalidade, princípios constitucionais, determinam a distinção entre interesses pessoais e profissionais, na conduta dos colaboradores da Galáxia;":
+      "Legality and impartiality determine the clear distinction between personal and professional interests in the conduct of Galáxia's employees;",
+    "As atividades do nosso negócio são desenvolvidas, reconhecendo e valorizando os interesses e direitos de todas as partes interessadas;":
+      "Our business operations are developed recognizing and valuing the interests and rights of all stakeholders;",
+    "A atuação proativa em busca de níveis crescentes de competitividade, excelência e rentabilidade, com responsabilidade social e ambiental, contribuem para o desenvolvimento sustentável do país, conduzindo nosso negócio com integridade e nos moldes da lei;":
+      "Proactive performance in search of increasing levels of competitiveness, excellence, and profitability, alongside socio-environmental responsibility, contributes to the sustainable development of the country while conducting our business with strict legal integrity;",
+    "A busca da excelência em Qualidade, Segurança, Meio Ambiente, Saúde e Recursos Humanos, promovem a educação, a capacitação e o comprometimento dos colaboradores, com uma cidadania global e responsável.":
+      "The pursuit of excellence in Quality, Safety, Environment, Health, and Human Resources promotes the education, training, and commitment of employees toward global citizenship.",
 
-    // == Sessão Mitigação, Normas MARPOL e Zero Resíduos ==
-    "Mitigação e Proteção dos Oceanos": "Ocean Protection & Mitigation",
-    "A Galáxia Marítima orienta suas atividades pelo rigoroso cumprimento das normas ambientais internacionais (MARPOL) e regulamentações da Marinha do Brasil, priorizando a prevenção da poluição marinha.":
-      "Galáxia Marítima guides its operations by strict compliance with international environmental standards (MARPOL) and Brazilian Navy regulations, prioritizing the total prevention of marine pollution.",
-    "Gerenciamento Zero Resíduos": "Zero Waste Management",
-    "Monitoramento e controle estrito de resíduos sólidos e oleosos, garantindo descarte zero no mar e encaminhamento adequado em terra através de parceiros certificados.":
-      "Strict monitoring and control of solid and oily waste, ensuring zero discharge at sea and proper onshore disposal through certified environmental partners.",
-
-    // == Sessão Descarbonização e Eficiência Energética ==
-    "Descarbonização e Eficiência Energética": "Decarbonization & Energy Efficiency",
-    "Investimento contínuo na otimização de rotas offshore e manutenção preventiva de motores para redução de emissões de Gases de Efeito Estufa (GEE).":
-      "Continuous investment in offshore route optimization and preventive engine maintenance to steadily reduce Greenhouse Gas (GHG) emissions.",
-
-    // =========================================================================
-    // 12. PROGRAMA DE QUALIDADE DE VIDA - PQV (PROGRAMA-QUALIDADE-VIDA.HTML)
-    // =========================================================================
-    
-    // == Sessão Introdução ao Programa de Saúde e Bem-Estar ==
+    // == Programa de Qualidade de Vida - Complementar ==
     "Programa de Qualidade de Vida - Galáxia Marítima": "Quality of Life Program - Galáxia Marítima",
-    "Programa de Qualidade de Vida (PQV)": "Quality of Life Program (QLP)",
-    "Um programa voltado à saúde e a qualidade de vida no trabalho para nossos colaboradores, com o intuito de tornar a empresa mais saudável, competitiva e produtiva.":
-      "A dedicated workplace health and quality of life program for our employees, designed to make the company healthier, more competitive, and highly productive.",
     "A implementação de um Programa de Qualidade de Vida Galáxia pretende obter os seguintes benefícios com a implementação do mesmo:":
       "The implementation of Galáxia's Quality of Life Program aims to achieve the following key corporate and human benefits:",
-    "Foco na Saúde & Segurança": "Focus on Health & Safety",
-    "Tolerância ao Desgaste / Fadiga": "Tolerance for Strain / Fatigue",
-    "Cuidado Integral (Onshore & Offshore)": "Comprehensive Care (Onshore & Offshore)",
-    "Competitividade & Produtividade": "Competitiveness & Productivity",
     "+ Alta": "+ High",
-
-    // == Sessão Benefícios Corporativos e Humanos ==
     "• Reconhecimento dos funcionários de que a empresa investe na saúde no trabalho;":
       "• Employee recognition and trust that the company actively invests in occupational health and well-being;",
     "• Retenção dos colaboradores;":
@@ -474,8 +587,6 @@
       "Reduction in RSI/WRMSD (Repetitive Strain Injury and Musculoskeletal Disorders) cases through guided workplace ergonomics.",
     "Redução com custos de assistência médica e psicológica, otimizando investimentos em saúde preventiva e bem-estar mental.":
       "Optimization and reduction of medical and psychological healthcare costs by focusing on preventive health and mental well-being.",
-
-    // == Sessão Ações Diárias a Bordo e na Base ==
     "Como estruturamos nossas ações diárias nas embarcações e na base administrativa para garantir saúde em todas as dimensões da vida humana.":
       "How we structure our daily actions onboard vessels and at the administrative base to ensure health across all dimensions of human life.",
     "Alimentação balanceada a bordo, incentivo à prática regular de exercícios e check-ups ocupacionais preventivos periódicos.":
@@ -489,78 +600,15 @@
     "Acreditamos que o bem-estar da nossa equipe é o motor fundamental para o sucesso e a segurança de todas as nossas missões de apoio marítimo no Brasil.":
       "We firmly believe that our team's well-being is the core driving force behind the safety and success of all our maritime support missions in Brazil.",
 
-    // =========================================================================
-    // 13. RESPONSABILIDADE SOCIAL (RESPONSABILIDADE-SOCIAL.HTML)
-    // =========================================================================
-    
-    // == Sessão Compromisso com a Sociedade e DNA da Galáxia ==
-    "A responsabilidade social é parte integrante das políticas e do DNA da Galáxia Marítima.":
-      "Social responsibility is an integral part of the policies and corporate DNA of Galáxia Marítima.",
-    "Valores que orientam cada decisão e cada operação da Galáxia Marítima, refletindo nosso compromisso inabalável com a sociedade e o planeta.":
-      "Values that guide every decision and every operation at Galáxia Marítima, reflecting our unwavering commitment to society and the planet.",
+    // == Gestão Ambiental - Complementar ==
+    "Nossa Gestão e Compromisso Ambiental": "Our Environmental Management & Commitment",
 
-    // == Sessão Diretrizes Sociais (Combate ao Trabalho Infantil, Igualdade) ==
-    "Repudiamos e combatemos o trabalho infantil e escravo.":
-      "We strictly reject and combat child and forced labor across our entire supply chain.",
-    "Rejeitamos qualquer discriminação racial, social e religiosa.":
-      "We reject any form of racial, social, religious, or gender discrimination.",
-    "Buscamos transparência e honestidade em nossas relações com parceiros, investidores, fornecedores e colaboradores.":
-      "We pursue transparency and absolute honesty in our relationships with partners, investors, suppliers, and employees.",
-    "Investimos na segurança e saúde de nossos funcionários.":
-      "We continuously invest in the occupational safety, health, and well-being of our employees.",
-    "Garantimos o desenvolvimento sustentável, protegendo o meio ambiente para gerações futuras.":
-      "We ensure sustainable development, actively protecting the marine environment for future generations.",
-    "Respeitamos e praticamos a transparência e a igualdade salarial entre mulheres e homens.":
-      "We respect and actively practice transparency and equal pay between women and men across all levels.",
-    "A Galáxia trabalha em harmonia com o meio ambiente, adotando práticas e tecnologias modernas, tornando as operações mais eficientes, a fim de minimizar os impactos ambientais.":
-      "Galáxia works in harmony with the environment by adopting modern practices and technologies, making operations more efficient to minimize environmental impact.",
-
-    // == Sessão Relatório de Transparência e MTE ==
-    "Clique abaixo para acessar o relatório emitido pelo MTE — Ministério do Trabalho e Emprego, reafirmando nosso compromisso com a igualdade e a transparência.":
-      "Click below to access the official report issued by the Brazilian Ministry of Labor and Employment (MTE), reaffirming our commitment to equity and transparency.",
-
-    // =========================================================================
-    // 14. POLÍTICA DE ÁLCOOL, DROGAS E TABACO (POLITICA-ALCOOL-DROGAS.HTML)
-    // =========================================================================
-    
-    // == Sessão Tolerância Zero para Risco e Fadiga Operacional ==
-    "Política de Álcool, Drogas e Tabaco": "Alcohol, Drugs, and Tobacco Policy",
-    "Tolerância Zero para Risco e Fadiga Operacional": "Zero Tolerance for Operational Risk and Impairment",
-    
-    // == Sessão Princípios, Proibição e Termos de Emprego ==
-    "A Galáxia reconhece que o consumo de álcool e uso de drogas ilegais é prejudicial à saúde e estabelece que a posse, venda, distribuição e consumo de quaisquer dessas substâncias nas instalações e embarcações é estritamente proibida pela Alta Administração.":
-      "Galáxia recognizes that alcohol and illegal drug consumption is harmful to human health and strictly establishes that the possession, sale, distribution, or consumption of such substances across any vessels or corporate premises is strictly forbidden by Senior Management.",
-    "A Galáxia, empresa de navegação de apoio marítimo, atuando nas atividades de exploração e produção de petróleo, estabelece esta Política na condução dos seus negócios, através dos seguintes princípios e compromissos:":
-      "Galáxia, a maritime offshore support company operating in oil exploration and production activities, establishes this Policy in the conduct of its business through the following principles and commitments:",
-    "Adota esta Política visando responsabilidade social, segurança e bem-estar de vidas, patrimônio e meio ambiente, como garantia de trabalhos executados nos mais altos padrões de segurança e eficiência.":
-      "Adopts this Policy seeking social responsibility, safety, and well-being of human life, corporate assets, and the environment as a guarantee of operations executed to the highest standards of safety and efficiency.",
-    "Incorpora esta Política, os Termos e Condições de Contratação de todos os colaboradores da Galáxia. A quebra destas diretrizes estará sujeita a procedimentos disciplinares.":
-      "Incorporates this Policy into the Terms and Conditions of Employment of all Galáxia staff. Any breach of these strict guidelines will be subject to disciplinary procedures.",
-
-    // =========================================================================
-    // 15. FALE CONOSCO / CONTATO (FALE-CONOSCO.HTML)
-    // =========================================================================
-    
-    // == Sessão Introdução e Canais de Atendimento ==
-    "Fale Conosco - Galáxia Marítima": "Contact Us - Galáxia Marítima",
-    "Entre em Contato com a Galáxia": "Get in Touch with Galáxia",
-    "Estamos à disposição para atender suas necessidades de navegação e apoio marítimo offshore.":
-      "We are ready to support all your offshore navigation and maritime support operational requirements.",
-
-    // == Sessão Endereços, Bases e Ouvidoria ==
-    "Endereço e Bases Operacionais": "Address & Operational Bases",
-    "Macaé - RJ (Base Operacional)": "Macaé - RJ (Operational Base)",
-    "Rio de Janeiro - RJ (Escritório Central)": "Rio de Janeiro - RJ (Headquarters)",
-    "Telefone & Contato": "Phone & Contact Info",
-    "Ouvidoria & Canal de Ética": "Ombudsman & Ethics Channel",
-
-    // == Sessão Formulário de Contato e Placeholders ==
-    "Envie uma Mensagem": "Send Us a Message",
-    "Nome Completo": "Full Name",
-    "Seu e-mail corporativo": "Your corporate email",
-    "Empresa": "Company",
-    "Assunto": "Subject",
-    "Mensagem": "Message"
+    // == Formulário - Placeholders ==
+    "Seu nome ou empresa": "Your name or company",
+    "Seu e-mail profissional": "Your professional email",
+    "Assunto ou tipo de serviço": "Subject or type of service",
+    "Como podemos ajudar no seu projeto marítimo?": "How can we help with your maritime project?",
+    "Mensagem Enviada com Sucesso!": "Message Sent Successfully!"
   };
 
   // Prepara lista ordenada por comprimento (do maior parágrafo para a menor palavra)

@@ -6450,5 +6450,377 @@ ul, ol {
 }
 
 
+/* ==========================================================================
+   PÁGINA DE NOTÍCIAS — ESTILOS ESPECÍFICOS
+   ÍNDICE:
+   N1. SEÇÃO NOTÍCIA EM DESTAQUE (FEATURED NEWS)
+   N2. BARRA DE FILTRO DE CATEGORIAS
+   N3. GRID DE ÚLTIMAS NOTÍCIAS (CARDS)
+   N4. COMPONENTES COMPARTILHADOS (BADGE, META, LINK)
+   N5. BOTÃO "CARREGAR MAIS"
+   N6. RESPONSIVIDADE DA PÁGINA DE NOTÍCIAS
+   ========================================================================== */
 
+
+/* ==========================================================================
+   N1. SEÇÃO NOTÍCIA EM DESTAQUE (FEATURED NEWS)
+   ========================================================================== */
+.news-featured {
+  padding: 80px 0 60px;
+  background: var(--gray-100);
+}
+
+/* Card principal horizontal com imagem à esquerda e texto à direita */
+.news-featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  box-shadow: var(--shadow-lg);
+  transition: box-shadow var(--transition-medium), transform var(--transition-medium);
+}
+
+.news-featured-card:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+
+/* Imagem da notícia destaque */
+.news-featured-image {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.news-featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-slow);
+}
+
+.news-featured-card:hover .news-featured-image img {
+  transform: scale(1.05);
+}
+
+/* Corpo de texto da notícia destaque */
+.news-featured-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 56px 52px;
+  gap: 0;
+}
+
+.news-featured-title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  color: var(--navy-900);
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.news-featured-excerpt {
+  font-size: 1rem;
+  color: var(--gray-600);
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.news-cta-btn {
+  align-self: flex-start;
+}
+
+
+/* ==========================================================================
+   N2. BARRA DE FILTRO DE CATEGORIAS
+   ========================================================================== */
+.news-filter-section {
+  padding: 40px 0 0;
+  background: var(--gray-100);
+}
+
+/* Container horizontal de botões de filtro */
+.news-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.news-filter-btn {
+  padding: 9px 22px;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.news-filter-btn:hover {
+  border-color: var(--navy-300);
+  color: var(--navy-800);
+  background: var(--navy-50);
+}
+
+.news-filter-btn.active {
+  background: var(--navy-800);
+  color: var(--white);
+  border-color: var(--navy-800);
+  box-shadow: var(--shadow-md);
+}
+
+
+/* ==========================================================================
+   N3. GRID DE ÚLTIMAS NOTÍCIAS (CARDS)
+   ========================================================================== */
+.news-grid-section {
+  padding: 56px 0 100px;
+  background: var(--gray-100);
+}
+
+.news-grid-header {
+  margin-bottom: 36px;
+}
+
+/* Grade responsiva: 3 colunas no desktop, 2 no tablet, 1 no mobile */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+/* Card individual de notícia */
+.news-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+  overflow: hidden;
+  transition: all var(--transition-medium);
+}
+
+.news-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--navy-100);
+}
+
+/* Bloco de imagem do card */
+.news-card-image-link {
+  display: block;
+  overflow: hidden;
+}
+
+.news-card-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.news-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.news-card:hover .news-card-image img {
+  transform: scale(1.07);
+}
+
+/* Overlay sutil na imagem para integrar o badge */
+.news-card-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 22, 40, 0.35), transparent 55%);
+  pointer-events: none;
+}
+
+/* Corpo de texto do card */
+.news-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 28px 26px;
+}
+
+.news-card-title {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.news-card-title a {
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+.news-card-title a:hover {
+  color: var(--navy-400);
+}
+
+.news-card-excerpt {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  line-height: 1.7;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+/* Link "Ler mais" ao pé do card */
+.news-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--navy-800);
+  margin-top: auto;
+  transition: all var(--transition-fast);
+}
+
+.news-card-link svg {
+  width: 15px;
+  height: 15px;
+  transition: transform var(--transition-fast);
+}
+
+.news-card:hover .news-card-link,
+.news-card-link:hover {
+  color: var(--accent-blue);
+  gap: 10px;
+}
+
+.news-card:hover .news-card-link svg {
+  transform: translateX(4px);
+}
+
+
+/* ==========================================================================
+   N4. COMPONENTES COMPARTILHADOS (BADGE, META, LINK)
+   ========================================================================== */
+
+/* Badge de categoria (sobre a imagem) */
+.news-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  padding: 5px 14px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--accent-blue);
+  color: var(--navy-900);
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Linha de metadados (data + tempo de leitura) */
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.news-date,
+.news-read-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--gray-400);
+}
+
+.news-date svg,
+.news-read-time svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+
+/* ==========================================================================
+   N5. BOTÃO "CARREGAR MAIS"
+   ========================================================================== */
+.news-load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+
+/* ==========================================================================
+   N6. RESPONSIVIDADE DA PÁGINA DE NOTÍCIAS
+   ========================================================================== */
+
+/* Tablet: 2 colunas no grid de cards; card destaque empilhado */
+@media (max-width: 1024px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news-featured-card {
+    grid-template-columns: 1fr;
+  }
+
+  .news-featured-image {
+    min-height: 300px;
+    max-height: 380px;
+  }
+
+  .news-featured-body {
+    padding: 40px 36px;
+  }
+}
+
+/* Mobile: 1 coluna para tudo */
+@media (max-width: 640px) {
+  .news-featured {
+    padding: 48px 0 40px;
+  }
+
+  .news-featured-body {
+    padding: 28px 24px 32px;
+  }
+
+  .news-featured-title {
+    font-size: 1.35rem;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .news-filter-bar {
+    gap: 6px;
+  }
+
+  .news-filter-btn {
+    padding: 7px 16px;
+    font-size: 0.8125rem;
+  }
+
+  .news-grid-section {
+    padding: 40px 0 64px;
+  }
+}
 

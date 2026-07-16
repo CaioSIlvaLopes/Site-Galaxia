@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- [SEO & META TAGS] -->
+  <title>Notícias — Galáxia Marítima | Novidades do Setor Naval e Logístico</title>
+  <meta name="description" content="Acompanhe as últimas notícias da Galáxia Marítima: atualizações operacionais, novas conquistas, parcerias estratégicas e novidades do setor de navegação." />
+  <meta name="keywords" content="notícias Galáxia Marítima, navegação marítima, apoio offshore, logística naval, novidades EBN" />
+  <meta name="author" content="Galáxia Marítima" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 01: CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                          -->
+  <!-- ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+
+      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
+      <a href="index.html" class="header-logo">
+        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
+      </a>
+
+      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
+      <nav class="header-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="frota.html">Frota</a>
+        <a href="responsabilidade-social.html">Responsabilidade Social</a>
+        <a href="index.html#servicos">Serviços</a>
+        <a href="noticias.html" class="active">Notícias</a>
+        <div class="nav-dropdown" id="qsmsDropdown">
+          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
+            QSMS
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
+            <a href="principios-eticos.html">Princípios Éticos</a>
+            <a href="politica-qsms.html">Política de QSMS</a>
+            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
+            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
+            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
+            <a href="politica-esg.html">Política de ESG</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
+      <div class="header-actions">
+        <div class="lang-selector" aria-label="Seletor de Idioma">
+          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
+            <img src="assets/images/flag-br.svg" alt="PT-BR" />
+          </a>
+          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
+            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
+          </a>
+        </div>
+
+        <div class="header-cta">
+          <a href="fale-conosco.html" class="btn btn-primary">
+            Fale conosco
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Hamburger) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 02: HERO DA PÁGINA (BANNER DE CABEÇALHO)                            -->
+  <!-- ========================================================================== -->
+  <section class="page-header">
+    <div class="page-header-bg">
+      <img src="assets/images/hero-slide-5.jpg" alt="Embarcação da Galáxia Marítima em operação" />
+    </div>
+    <div class="container">
+      <div class="page-header-content">
+        <span class="section-label" style="color: var(--navy-200);">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 0-2-2V6"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 12h4"/><path d="M10 16h4"/><path d="M10 8h1"/></svg>
+          Sala de Imprensa
+        </span>
+        <h1 class="page-title">Notícias</h1>
+        <p class="page-subtitle">Acompanhe as últimas novidades operacionais, parcerias estratégicas e conquistas da Galáxia Marítima.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 03: NOTÍCIA PRINCIPAL (DESTAQUE)                                    -->
+  <!-- ========================================================================== -->
+  <section class="news-featured" id="noticia-principal">
+    <div class="container">
+
+      <span class="section-label reveal">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Notícia em Destaque
+      </span>
+
+      <!-- Card principal da notícia em destaque -->
+      <article class="news-featured-card reveal" id="noticia-destaque">
+        <div class="news-featured-image">
+          <img src="assets/images/hero-slide-4.jpg" alt="GNL 1015 inicia nova operação de suprimento offshore na Bacia de Santos" />
+          <!-- Badge de categoria -->
+          <span class="news-badge">Operações</span>
+        </div>
+        <div class="news-featured-body">
+          <div class="news-meta">
+            <span class="news-date">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+              15 de julho de 2026
+            </span>
+            <span class="news-read-time">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              5 min de leitura
+            </span>
+          </div>
+          <h2 class="news-featured-title">GNL 1015 inicia nova operação de suprimento offshore na Bacia de Santos</h2>
+          <p class="news-featured-excerpt">A embarcação GNL 1015 Rio de Janeiro deu início a mais uma missão estratégica de apoio marítimo, abastecendo unidades de exploração e produção na Bacia de Santos. A operação reforça o compromisso da Galáxia com a excelência e a segurança operacional em alto mar, cumprindo rigorosamente os padrões QSMS estabelecidos pela empresa.</p>
+          <a href="#" class="btn btn-primary news-cta-btn">
+            Ler Matéria Completa
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 04: FILTRO DE CATEGORIAS                                            -->
+  <!-- ========================================================================== -->
+  <section class="news-filter-section">
+    <div class="container">
+      <div class="news-filter-bar reveal" id="filtro-categorias" role="group" aria-label="Filtrar notícias por categoria">
+        <button class="news-filter-btn active" data-category="all">Todas</button>
+        <button class="news-filter-btn" data-category="operacoes">Operações</button>
+        <button class="news-filter-btn" data-category="sustentabilidade">Sustentabilidade</button>
+        <button class="news-filter-btn" data-category="parcerias">Parcerias</button>
+        <button class="news-filter-btn" data-category="frota">Frota</button>
+        <button class="news-filter-btn" data-category="institucional">Institucional</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 05: GRID DE ÚLTIMAS NOTÍCIAS                                        -->
+  <!-- ========================================================================== -->
+  <section class="news-grid-section" id="ultimas-noticias">
+    <div class="container">
+
+      <div class="news-grid-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Últimas Notícias
+        </span>
+      </div>
+
+      <!-- Grade responsiva de cards de notícias -->
+      <div class="news-grid" id="news-cards-container">
+
+        <!-- CARD 01 -->
+        <article class="news-card reveal reveal-delay-1" data-category="sustentabilidade">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/esg_side_image.png" alt="Galáxia renova certificação ambiental e amplia programa de gestão verde" />
+              <span class="news-badge">Sustentabilidade</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                10 jul. 2026
+              </span>
+              <span class="news-read-time">3 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Galáxia renova certificação ambiental e amplia programa de gestão verde</a></h3>
+            <p class="news-card-excerpt">Em alinhamento com nossa Política de ESG, a empresa concluiu com êxito a renovação de suas certificações ambientais para mais um ciclo operacional.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 02 -->
+        <article class="news-card reveal reveal-delay-2" data-category="frota">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/about-ship.png" alt="Nova embarcação de apoio marítimo integra frota da Galáxia" />
+              <span class="news-badge">Frota</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                04 jul. 2026
+              </span>
+              <span class="news-read-time">4 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Nova embarcação de apoio portuário integra a frota especializada da Galáxia</a></h3>
+            <p class="news-card-excerpt">A expansão da frota amplia a capacidade operacional da empresa para atender contratos de longo prazo no segmento de apoio portuário e offshore.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 03 -->
+        <article class="news-card reveal reveal-delay-3" data-category="parcerias">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/qsms_side_image.png" alt="Galáxia firma acordo estratégico com operadora de plataformas offshore" />
+              <span class="news-badge">Parcerias</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                28 jun. 2026
+              </span>
+              <span class="news-read-time">3 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Galáxia firma acordo estratégico com grande operadora de plataformas offshore</a></h3>
+            <p class="news-card-excerpt">O contrato de longo prazo fortalece a posição da empresa no mercado de suprimento e movimentação de cargas em unidades de exploração de petróleo.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 04 -->
+        <article class="news-card reveal reveal-delay-1" data-category="operacoes">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/service-maritimo.png" alt="Galáxia conclui operação de resposta rápida a derramamento de óleo" />
+              <span class="news-badge">Operações</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                20 jun. 2026
+              </span>
+              <span class="news-read-time">6 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Equipe OSRV da Galáxia conclui com êxito exercício de resposta a emergência ambiental</a></h3>
+            <p class="news-card-excerpt">A simulação realizada na costa fluminense testou os protocolos de contenção e recolhimento de óleo, com tempo de resposta abaixo do exigido pela norma MARPOL.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 05 -->
+        <article class="news-card reveal reveal-delay-2" data-category="institucional">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/hero-responsabilidade.png" alt="Galáxia comemora 24 anos de excelência em navegação" />
+              <span class="news-badge">Institucional</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                15 mai. 2026
+              </span>
+              <span class="news-read-time">4 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Galáxia celebra 24 anos de excelência em navegação de apoio marítimo</a></h3>
+            <p class="news-card-excerpt">Fundada em maio de 2002, a Galáxia reafirma seu compromisso com a segurança, a inovação e a responsabilidade socioambiental como pilares de sua trajetória.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 06 -->
+        <article class="news-card reveal reveal-delay-3" data-category="sustentabilidade">
+          <a href="#" class="news-card-image-link">
+            <div class="news-card-image">
+              <img src="assets/images/image_c145da.jpg" alt="Programa de Qualidade de Vida reconhecido como referência no setor naval" />
+              <span class="news-badge">Sustentabilidade</span>
+            </div>
+          </a>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-date">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                02 mai. 2026
+              </span>
+              <span class="news-read-time">5 min</span>
+            </div>
+            <h3 class="news-card-title"><a href="#">Programa de Qualidade de Vida da Galáxia é reconhecido como referência no setor naval</a></h3>
+            <p class="news-card-excerpt">A iniciativa, voltada ao bem-estar dos tripulantes, recebeu menção honrosa em evento do setor de navegação, destacando práticas inovadoras de saúde a bordo.</p>
+            <a href="#" class="news-card-link">
+              Ler mais
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div><!-- /.news-grid -->
+
+      <!-- Paginação / Botão carregar mais -->
+      <div class="news-load-more reveal">
+        <button class="btn btn-primary" id="loadMoreBtn">
+          Carregar mais notícias
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 06: RODAPÉ (FOOTER)                                                 -->
+  <!-- ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+
+        <!-- Coluna 1: Sobre e Redes Sociais -->
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">
+            <img src="assets/images/logo.png" alt="Galáxia Marítima" />
+            <span class="header-logo-text">Galáxia <span></span></span>
+          </a>
+          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
+
+          <!-- [EDITAR LINKS DAS REDES SOCIAIS] -->
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
+            <li><a href="frota.html">Frota</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Segmentos de Atuação -->
+        <div class="footer-col">
+          <h4>Soluções</h4>
+          <ul>
+            <li><a href="index.html#areas-atuacao">Áreas de Atuação</a></li>
+            <li><a href="index.html#servicos">Apoio Marítimo</a></li>
+            <li><a href="index.html#servicos">Apoio Portuário</a></li>
+            <li><a href="index.html#servicos">Logística Naval</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Informações de Contato -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+
+          <!-- [EDITAR ENDEREÇO DA EMPRESA] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p>Rio de Janeiro, RJ — Brasil</p>
+          </div>
+
+          <!-- [EDITAR TELEFONE DA EMPRESA] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <p>+55 (21) 0000-0000</p>
+          </div>
+
+          <!-- [EDITAR E-MAIL COMERCIAL] -->
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <p>contato@galaxiamaritima.com.br</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Direitos Autorais -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Galáxia Marítima. Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 07: SCRIPTS E INTERATIVIDADE (JAVASCRIPT)                           -->
+  <!-- ========================================================================== -->
+  <script>
+    // 1. Efeito visual de fixação do cabeçalho no scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // 2. Abertura/Fechamento do menu em dispositivos móveis
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      mainNav.classList.toggle('open');
+    });
+
+    mainNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('open');
+        mainNav.classList.remove('open');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-dropdown')) {
+        document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      }
+    });
+
+    // 3. Animações de surgimento ao rolar (Scroll Reveal)
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 4. Filtro de categorias das notícias
+    const filterBtns = document.querySelectorAll('.news-filter-btn');
+    const newsCards = document.querySelectorAll('.news-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Atualiza botão ativo
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const category = btn.dataset.category;
+
+        // Mostra/oculta cards com animação suave
+        newsCards.forEach(card => {
+          const cardCategory = card.dataset.category;
+          const shouldShow = category === 'all' || cardCategory === category;
+
+          if (shouldShow) {
+            card.style.display = '';
+            setTimeout(() => card.classList.add('visible'), 10);
+          } else {
+            card.classList.remove('visible');
+            setTimeout(() => card.style.display = 'none', 400);
+          }
+        });
+      });
+    });
+
+    // 5. Simulação de "Carregar Mais" notícias
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        loadMoreBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          Todas as notícias carregadas
+        `;
+        loadMoreBtn.disabled = true;
+        loadMoreBtn.style.opacity = '0.65';
+        loadMoreBtn.style.cursor = 'not-allowed';
+      });
+    }
+  </script>
+  <script src="i18n.js"></script>
+</body>
+</html>
