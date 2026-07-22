@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Notícia | Galáxia</title>
+  <meta name="description" content="Leia os detalhes desta notícia." />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+</head>
+<body class="inner-page">
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 01: CABEÇALHO (HEADER)                                             -->
+  <!-- ========================================================================== -->
+  <div id="header-placeholder"></div>
+  <script src="partials/load-header.js"></script>
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 02: HERO MENOR DA PÁGINA COM BREADCRUMBS                             -->
+  <!-- ========================================================================== -->
+  <section class="page-header contact-hero" style="padding-top: 140px; padding-bottom: 60px;">
+    <div class="page-header-bg">
+      <img id="newsBgImg" src="assets/images/hero-slide-4.jpg" alt="Fundo escurecido de notícia" style="opacity: 0.3;" />
+    </div>
+    
+    <div class="container">
+      <!-- Navegação Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb" style="position: relative; z-index: 2; margin-bottom: 24px;">
+        <a href="index.html">Home</a>
+        <span>&rsaquo;</span>
+        <a href="noticias.html">Notícias</a>
+        <span>&rsaquo;</span>
+        <span id="breadcrumbNewsName">Detalhes da Notícia</span>
+      </nav>
+
+      <div class="page-header-content" style="max-width: 800px; text-align: left; margin: 0;">
+        <span class="section-label" id="newsCategory" style="color: var(--navy-200);">
+          Categoria
+        </span>
+        <h1 class="page-title" id="newsTitle" style="font-size: 2.5rem; line-height: 1.2; text-align: left;">Título da Notícia</h1>
+        <div class="news-meta" style="margin-top: 16px; color: var(--gray-300);">
+          <span class="news-date">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+            <span id="newsDate">Data da Notícia</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 03: CONTEÚDO (FOTO E TEXTO AO LADO)                                -->
+  <!-- ========================================================================== -->
+  <section class="qsms-guidelines-section" style="padding-top: 60px;">
+    <div class="container">
+      
+      <div class="qsms-guidelines-grid reveal">
+        
+        <!-- Coluna 1: Imagem da Notícia -->
+        <div class="qsms-guidelines-media">
+          <img id="newsMainImg" src="" alt="Imagem da notícia" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);" />
+        </div>
+
+        <!-- Coluna 2: Texto Corrido Minimalista -->
+        <div class="qsms-minimal-prose" style="max-width: 100%; margin: 0;" id="newsContentBlock">
+          <!-- Os parágrafos serão inseridos aqui dinamicamente pelo JS -->
+        </div>
+
+      </div>
+
+      <div class="ship-detail-footer reveal" style="margin-top: 60px;">
+        <div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--navy-900); margin-bottom: 4px;">Fique por dentro das novidades da Galáxia</h3>
+        </div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="noticias.html" class="btn btn-outline">
+            &larr; Voltar para Notícias
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================== -->
+  <!-- SEÇÃO 04: RODAPÉ (FOOTER)                                                -->
+  <!-- ========================================================================== -->
+  <div id="footer-placeholder"></div>
+  <script src="partials/load-footer.js"></script>
+
+  <script>
+    // Animações
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Banco de Dados Dinâmico de Notícias
+    const noticiasDados = {
+      'selo-ouro': {
+        categoria: 'Sustentabilidade',
+        data: '17 de julho de 2026',
+        titulo: 'Galaxia conquista o Selo Ouro do GHG Protocol pelo sexto ano consecutivo e amplia ações rumo ao Net Zero',
+        img: 'assets/images/noticias/Imagem - Selo Ouro.png',
+        paragrafos: [
+          'A Galaxia conquistou, pelo sexto ano consecutivo, o <strong>Selo Ouro do Programa Brasileiro GHG Protocol</strong>, reconhecimento concedido às organizações que elaboram e verificam seus inventários de emissões de gases de efeito estufa (GEE) seguindo os critérios estabelecidos pelo programa, referência nacional em contabilização de emissões.',
+          'A manutenção desse reconhecimento ao longo de seis ciclos consecutivos reforça a consistência do trabalho desenvolvido pela empresa na gestão das emissões. Anualmente, o inventário passa por um processo estruturado de levantamento, consolidação e verificação das informações, assegurando a qualidade dos dados reportados e a aderência aos requisitos do programa.',
+          'Em 2026, a Galaxia avançou em sua estratégia ambiental com a compensação de 100% das emissões de gases de efeito estufa da embarcação Atlas Z e de todas as bases administrativas, tornando essas operações Net Zero.',
+          'A iniciativa representa um novo passo na jornada de sustentabilidade da empresa, demonstrando que o inventário de emissões vai além de um registro de dados. As informações levantadas são utilizadas como ferramenta estratégica para apoiar decisões, identificar oportunidades de melhoria e direcionar ações de redução e compensação de impactos ambientais.',
+          'A conquista do Selo Ouro pelo sexto ano consecutivo e a ampliação das operações Net Zero reforçam o compromisso da Galaxia com uma gestão ambiental baseada em dados, transparência e melhoria contínua de seus processos.',
+          'A empresa agradece a todos os profissionais envolvidos na construção desse resultado e que contribuem diariamente para o avanço das iniciativas de sustentabilidade.'
+        ]
+      },
+      'esg-recanto': {
+        categoria: 'ESG',
+        data: '10 de julho de 2026',
+        titulo: 'Galaxia realiza ação de responsabilidade social com doação de colchões ao Recanto dos Idosos, em Macaé',
+        img: 'assets/images/noticias/Imagem - Ação Social - Recanto dos Idosos.png',
+        paragrafos: [
+          'A Galaxia, em parceria com a embarcação Theseus Z e a NBSLOG, realizou uma ação de responsabilidade social com a doação de colchões ao Recanto dos Idosos, instituição localizada em Macaé (RJ).',
+          'A iniciativa teve como objetivo contribuir para o bem-estar dos idosos atendidos pela instituição, proporcionando mais conforto, dignidade e melhores condições de acomodação.',
+          'A ação reforça o compromisso da Galaxia, de seus parceiros e das tripulações com a responsabilidade social, demonstrando que a união de esforços pode gerar impactos positivos na comunidade.',
+          'Mais do que uma doação, a iniciativa representa a importância de olhar para as pessoas e contribuir de forma efetiva para a construção de uma sociedade mais solidária.',
+          'A Galaxia agradece a todos os profissionais e parceiros envolvidos, que tornaram possível a realização de mais uma ação do programa de responsabilidade social da empresa.'
+        ]
+      },
+      'dmm-pa39': {
+        categoria: 'Operações',
+        data: '01 de julho de 2026',
+        titulo: 'Galaxia participa de operação de deslocamento do DMM da PA-39 no litoral de Sergipe',
+        img: 'assets/images/noticias/Imagem - Operação de Reboque.jpg.jpeg',
+        paragrafos: [
+          'A operação de deslocamento do DMM da PA-39 foi concluída com segurança, realizando a transferência da unidade da PGA-08, localizada no Campo de Guaricema (SE), para a PCM-11, no Campo de Camorim (SE). A atividade contemplou um percurso de 11,78 milhas náuticas e contou com o apoio marítimo das embarcações Apollo Z e Theseus Z, da Galaxia.',
+          'Durante a operação, as embarcações atuaram no suporte necessário para garantir a execução segura de uma atividade de elevada complexidade no ambiente offshore, contribuindo para a movimentação eficiente da unidade entre os campos operacionais.',
+          'As tripulações da Galaxia desempenharam suas atividades seguindo rigorosamente os procedimentos operacionais estabelecidos, reforçando o compromisso da empresa com a segurança das pessoas, a integridade dos ativos e a preservação do meio ambiente.',
+          'O resultado reflete a importância do planejamento técnico, da integração entre equipes e de uma cultura de segurança sólida para a realização de operações offshore com excelência.',
+          'A Galaxia parabeniza todos os profissionais envolvidos nesta operação por mais uma missão concluída com sucesso.'
+        ]
+      },
+      'certificacoes-iso': {
+        categoria: 'Institucional',
+        data: '18 de maio de 2026',
+        titulo: 'Galaxia mantém certificações ISO 9001, ISO 14001 e ISO 45001 com auditoria sem não conformidades',
+        img: 'assets/images/noticias/Imagem - ISO.png',
+        paragrafos: [
+          'A Galaxia concluiu a auditoria anual de manutenção das certificações ISO 9001, ISO 14001 e ISO 45001, realizada pelo Bureau Veritas, com um resultado que reforça o compromisso da empresa com a excelência operacional: zero não conformidade identificada no Sistema de Gestão Integrado (SGI).',
+          'O resultado demonstra a maturidade dos processos implementados pela empresa e o comprometimento das equipes na aplicação dos requisitos relacionados à qualidade, gestão ambiental, saúde e segurança ocupacional.',
+          'A auditoria avalia a conformidade e a eficácia dos sistemas de gestão, contribuindo para a melhoria contínua dos processos e para o fortalecimento das práticas adotadas pela organização.',
+          'A manutenção das certificações representa o esforço coletivo de todos os profissionais da Galaxia, que diariamente contribuem para a realização de operações mais seguras, eficientes e sustentáveis.',
+          'A empresa segue avançando em sua jornada de melhoria contínua, com foco no aprimoramento dos processos e na manutenção dos mais altos padrões de desempenho operacional.'
+        ]
+      },
+      'basquete': {
+        categoria: 'Institucional',
+        data: '05 de maio de 2026',
+        titulo: 'Galaxia conquista 2º lugar na Liga Hands Free de Basquete da LOEP/LPM Petrobras',
+        img: 'assets/images/noticias/Imagem- Liga Hands Free.jpg.jpeg',
+        paragrafos: [
+          'A Galaxia conquistou o 2º lugar na Liga Hands Free de Basquete da LOEP/LPM Petrobras, premiação recebida no último dia 05/05, como reconhecimento pelo desempenho da empresa na iniciativa.',
+          'Mais do que uma conquista esportiva, o resultado representa um marco importante dentro do processo de evolução que a Galaxia vem construindo, reforçando o alinhamento, o engajamento das equipes e a busca contínua pela excelência em suas operações.',
+          'A participação na Liga Hands Free também evidencia o fortalecimento de uma cultura baseada em valores essenciais para a empresa, como responsabilidade, comprometimento, atenção às operações e segurança como prioridade.',
+          'A conquista está alinhada aos objetivos do programa Missão Excelência das Galáxias, iniciativa voltada ao desenvolvimento contínuo dos processos e ao fortalecimento da excelência operacional.',
+          'A Galaxia parabeniza todos os profissionais envolvidos por essa importante conquista e reafirma seu compromisso em seguir evoluindo, construindo resultados sólidos por meio do trabalho em equipe e da dedicação diária de seus colaboradores.'
+        ]
+      }
+    };
+
+    // Lê parâmetro da URL (?noticia=...)
+    const urlParams = new URLSearchParams(window.location.search);
+    const noticiaKey = urlParams.get('noticia');
+
+    if (noticiaKey && noticiasDados[noticiaKey]) {
+      const d = noticiasDados[noticiaKey];
+
+      document.title = `Notícia — ${d.titulo.substring(0, 50)}... | Galáxia`;
+      document.querySelector('meta[name="description"]').setAttribute("content", d.paragrafos[0].replace(/<[^>]*>?/gm, ''));
+
+      document.getElementById('newsTitle').textContent = d.titulo;
+      document.getElementById('newsCategory').textContent = d.categoria;
+      document.getElementById('newsDate').textContent = d.data;
+      document.getElementById('breadcrumbNewsName').textContent = d.titulo.substring(0, 30) + '...';
+      
+      document.getElementById('newsBgImg').src = d.img;
+      document.getElementById('newsMainImg').src = d.img;
+      document.getElementById('newsMainImg').alt = d.titulo;
+
+      const contentBlock = document.getElementById('newsContentBlock');
+      
+      d.paragrafos.forEach((p, index) => {
+        const delay = index % 2 === 0 ? 'reveal-delay-1' : 'reveal-delay-2';
+        const div = document.createElement('div');
+        div.className = `qsms-minimal-prose-item reveal ${delay} visible`;
+        div.innerHTML = `<p>${p}</p>`;
+        contentBlock.appendChild(div);
+      });
+      
+    } else {
+      // Fallback: redirecionar ou mostrar erro
+      document.getElementById('newsTitle').textContent = "Notícia não encontrada";
+      document.getElementById('newsContentBlock').innerHTML = "<p>A notícia que você procura não existe ou foi removida.</p>";
+      document.getElementById('newsMainImg').style.display = "none";
+    }
+
+  </script>
+</body>
+</html>

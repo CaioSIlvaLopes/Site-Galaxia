@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>AMAZON CHIEFTAIN Z — Especificações Técnicas | Galáxia Marítima</title>
-  <meta name="description" content="Ficha técnica detalhada (Data-Sheet) do navio AMAZON CHIEFTAIN Z da Galáxia Marítima. Informações de registro e características principais." />
+  <title>AMAZON CHIEFTAIN Z — Especificações Técnicas | Galáxia</title>
+  <meta name="description" content="Ficha técnica detalhada (Data-Sheet) do navio AMAZON CHIEFTAIN Z da Galáxia. Informações de registro e características principais." />
   
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/images/logo.png" type="image/png" />
@@ -15,66 +15,8 @@
   <!-- ========================================================================== -->
   <!-- SEÇÃO 01: CABEÇALHO (HEADER)                                             -->
   <!-- ========================================================================== -->
-  <header class="header" id="header">
-    <div class="container">
-
-      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
-      <a href="index.html" class="header-logo">
-        <img src="assets/images/logo.png" alt="Galáxia Marítima Logo" />
-      </a>
-
-      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
-      <nav class="header-nav" id="mainNav">
-        <a href="index.html">Home</a>
-        <a href="quem-somos.html">Quem Somos</a>
-        <a href="frota.html" class="active">Frota</a>
-        <a href="responsabilidade-social.html">Responsabilidade Social</a>
-        <a href="index.html#servicos">Serviços</a>
-        <a href="noticias.html">Notícias</a>
-        <div class="nav-dropdown" id="qsmsDropdown">
-          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
-            QSMS
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-          <div class="nav-dropdown-menu">
-            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
-            <a href="principios-eticos.html">Princípios Éticos</a>
-            <a href="politica-qsms.html">Política de QSMS</a>
-            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
-            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
-            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
-            <a href="politica-esg.html">Política de ESG</a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
-      <div class="header-actions">
-        <div class="lang-selector" aria-label="Seletor de Idioma">
-          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
-            <img src="assets/images/flag-br.svg" alt="PT-BR" />
-          </a>
-          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
-            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
-          </a>
-        </div>
-
-        <div class="header-cta">
-          <a href="fale-conosco.html" class="btn btn-primary">
-            Fale conosco
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <!-- Botão Menu Mobile (Hamburger) -->
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
+  <div id="header-placeholder"></div>
+  <script src="partials/load-header.js"></script>
 
 
   <!-- ========================================================================== -->
@@ -249,56 +191,8 @@
   <!-- ========================================================================== -->
   <!-- SEÇÃO 04: RODAPÉ (FOOTER)                                                -->
   <!-- ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-main">
-        
-        <div class="footer-brand">
-          <a href="index.html" class="header-logo">
-            <img src="assets/images/logo.png" alt="Galáxia Marítima" />
-            <span class="header-logo-text">Galáxia <span>Marítima</span></span>
-          </a>
-          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
-        </div>
-
-        <div class="footer-col">
-          <h4>Navegação</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quem-somos.html">Quem Somos</a></li>
-            <li><a href="frota.html">Nossa Frota</a></li>
-            <li><a href="index.html#servicos">Serviços</a>
-        <a href="noticias.html">Notícias</a></li>
-            <li><a href="index.html#contato">Contato</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Nossos Navios</h4>
-          <ul>
-            <li><a href="navio-detalhes.html?navio=captain-nicholas-z">CAPTAIN NICHOLAS Z</a></li>
-            <li><a href="navio-detalhes.html?navio=apollo-z">APOLLO Z</a></li>
-            <li><a href="navio-detalhes.html?navio=theseus-z">THESEUS Z</a></li>
-            <li><a href="navio-detalhes.html?navio=atlas-z">ATLAS Z</a></li>
-            <li><a href="navio-detalhes.html?navio=gnl-1015">GNL 1015</a></li>
-
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Contato</h4>
-          <div class="footer-contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            <p>contato@galaxiamaritima.com.br</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2026 Galáxia Marítima. Todos os direitos reservados.</p>
-      </div>
-    </div>
-  </footer>
+  <div id="footer-placeholder"></div>
+  <script src="partials/load-footer.js"></script>
 
   <script>
     // Efeito visual de opacidade do cabeçalho no scroll

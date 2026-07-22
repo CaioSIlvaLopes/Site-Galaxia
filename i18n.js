@@ -1,6 +1,6 @@
 /**
  * i18n.js - Sistema Completo e Inteligente de Tradução (PT-BR <-> EN-UK)
- * Galáxia Marítima - Navegação de Apoio Marítimo e Offshore
+ * Galáxia - Navegação de Apoio Marítimo e Offshore
  */
 
 (function() {
@@ -150,18 +150,18 @@
     // 5. QUEM SOMOS (QUEM-SOMOS.HTML)
     // =========================================================================
     
-    "Quem Somos - Galáxia Marítima": "About Us - Galáxia Marítima",
+    "Quem Somos - Galáxia": "About Us - Galáxia",
     "Tradição, Segurança e Liderança nas Águas Brasileiras": "Tradition, Safety, and Leadership in Brazilian Waters",
-    "Conheça nossa trajetória, nossa excelência operacional e os princípios inegociáveis que guiam a Galáxia Marítima em cada milha navegada.":
-      "Discover our trajectory, our operational excellence, and the non-negotiable principles that guide Galáxia Marítima every nautical mile navigated.",
+    "Conheça nossa trajetória, nossa excelência operacional e os princípios inegociáveis que guiam a Galáxia em cada milha navegada.":
+      "Discover our trajectory, our operational excellence, and the non-negotiable principles that guide Galáxia every nautical mile navigated.",
     "Ano de Fundação": "Founded Year",
     "Certificação Brasileira": "Brazilian Certification",
     "Padrão Global": "Global Standard",
     "Nossa História": "Our History",
     "Fundada em maio de 2002, a Galáxia orgulha-se de ser uma Empresa Brasileira de Navegação (EBN) consolidada e de excelência.":
       "Founded in May 2002, Galáxia takes pride in being a consolidated Brazilian Navigation Company (EBN) dedicated to operational excellence.",
-    "Fundada com o propósito de suprir a crescente demanda da indústria de energia offshore, a Galáxia Marítima consolidou-se como referência nacional no fornecimento de embarcações especializadas e tripulações altamente qualificadas.":
-      "Founded to meet the growing demand of the offshore energy industry, Galáxia Marítima has established itself as a national benchmark in specialized vessels and highly skilled crews.",
+    "Fundada com o propósito de suprir a crescente demanda da indústria de energia offshore, a Galáxia consolidou-se como referência nacional no fornecimento de embarcações especializadas e tripulações altamente qualificadas.":
+      "Founded to meet the growing demand of the offshore energy industry, Galáxia has established itself as a national benchmark in specialized vessels and highly skilled crews.",
     "Nosso foco principal e nossa grande força residem na navegação de apoio marítimo, onde entregamos soluções robustas e confiáveis para os desafios operacionais de nossos clientes.":
       "Our main focus and greatest strength lie in maritime support navigation, where we deliver robust and reliable solutions for our clients' offshore operational challenges.",
     "Para garantir resultados superiores, contamos com uma equipe de gestão altamente experiente e qualificada. Essa expertise nos permite fornecer um elevado padrão operacional, sempre em rigorosa conformidade com as melhores e mais seguras práticas do mercado global.":
@@ -258,7 +258,7 @@
     // 9. CÓDIGO DE CONDUTA (CODIGO-CONDUTA.HTML)
     // =========================================================================
     
-    "Código de Conduta - Galáxia Marítima": "Code of Conduct - Galáxia Marítima",
+    "Código de Conduta - Galáxia": "Code of Conduct - Galáxia",
     "Código de Conduta": "Code of Conduct",
     "Nosso Código de Conduta estabelece os Princípios Éticos fundamentais que orientam o comportamento e as decisões institucionais de todos os colaboradores, lideranças, parceiros comerciais e terceirizados da Galáxia.":
       "Our Code of Conduct establishes the fundamental Ethical Principles that guide the behavior and institutional decisions of all employees, leadership, business partners, and contractors at Galáxia.",
@@ -301,13 +301,13 @@
     // =========================================================================
     
     "Programa de Gestão Ambiental (PGA)": "Environmental Management Program (EMP)",
-    "Programa de Gestão Ambiental (PGA) - Galáxia Marítima": "Environmental Management Program (EMP) - Galáxia Marítima",
+    "Programa de Gestão Ambiental (PGA) - Galáxia": "Environmental Management Program (EMP) - Galáxia",
     "Preservação dos Oceanos e Sustentabilidade Offshore": "Ocean Conservation and Offshore Sustainability",
     "Comprometidos com a proteção dos oceanos e a minimização de resíduos gerados durante as operações marítimas e portuárias.":
       "Committed to protecting ocean ecosystems and minimizing waste generation throughout our offshore maritime and port operations.",
     "Mitigação e Proteção dos Oceanos": "Ocean Protection & Mitigation",
-    "A Galáxia Marítima orienta suas atividades pelo rigoroso cumprimento das normas ambientais internacionais (MARPOL) e regulamentações da Marinha do Brasil, priorizando a prevenção da poluição marinha.":
-      "Galáxia Marítima guides its operations by strict compliance with international environmental standards (MARPOL) and Brazilian Navy regulations, prioritizing the total prevention of marine pollution.",
+    "A Galáxia orienta suas atividades pelo rigoroso cumprimento das normas ambientais internacionais (MARPOL) e regulamentações da Marinha do Brasil, priorizando a prevenção da poluição marinha.":
+      "Galáxia guides its operations by strict compliance with international environmental standards (MARPOL) and Brazilian Navy regulations, prioritizing the total prevention of marine pollution.",
     "Gerenciamento Zero Resíduos": "Zero Waste Management",
     "Monitoramento e controle estrito de resíduos sólidos e oleosos, garantindo descarte zero no mar e encaminhamento adequado em terra através de parceiros certificados.":
       "Strict monitoring and control of solid and oily waste, ensuring zero discharge at sea and proper onshore disposal through certified environmental partners.",
@@ -331,8 +331,8 @@
     // 13. RESPONSABILIDADE SOCIAL (RESPONSABILIDADE-SOCIAL.HTML)
     // =========================================================================
     
-    "A responsabilidade social é parte integrante das políticas e do DNA da Galáxia Marítima.":
-      "Social responsibility is an integral part of the policies and corporate DNA of Galáxia Marítima.",
+    "A responsabilidade social é parte integrante das políticas e do DNA da Galáxia.":
+      "Social responsibility is an integral part of the policies and corporate DNA of Galáxia.",
     "Repudiamos e combatemos o trabalho infantil e escravo.":
       "We strictly reject and combat child and forced labor across our entire supply chain.",
     "Rejeitamos qualquer discriminação racial, social e religiosa.":
@@ -359,7 +359,7 @@
     // 15. FALE CONOSCO (FALE-CONOSCO.HTML)
     // =========================================================================
     
-    "Fale Conosco - Galáxia Marítima": "Contact Us - Galáxia Marítima",
+    "Fale Conosco - Galáxia": "Contact Us - Galáxia",
     "Entre em Contato com a Galáxia": "Get in Touch with Galáxia",
     "Estamos à disposição para atender suas necessidades de navegação e apoio marítimo offshore.":
       "We are ready to support all your offshore navigation and maritime support operational requirements.",
@@ -383,7 +383,7 @@
     "Navegação": "Navigation",
     "Soluções": "Solutions",
     "Contato": "Contact",
-    "© 2026 Galáxia Marítima. Todos os direitos reservados.": "© 2026 Galáxia Marítima. All rights reserved.",
+    "© 2026 Galáxia. Todos os direitos reservados.": "© 2026 Galáxia. All rights reserved.",
     "© 2026 Galáxia . Todos os direitos reservados.": "© 2026 Galáxia . All rights reserved.",
     "Logística Naval": "Naval Logistics",
     "Fale Conosco": "Contact Us",
@@ -471,8 +471,8 @@
     "Entre em contato": "Get in Touch",
 
     // == Responsabilidade Social ==
-    "Valores que orientam cada decisão e cada operação da Galáxia Marítima, refletindo nosso compromisso inabalável com a sociedade e o planeta.":
-      "Values that guide every decision and every operation at Galáxia Marítima, reflecting our unwavering commitment to society and the planet.",
+    "Valores que orientam cada decisão e cada operação da Galáxia, refletindo nosso compromisso inabalável com a sociedade e o planeta.":
+      "Values that guide every decision and every operation at Galáxia, reflecting our unwavering commitment to society and the planet.",
     "Investimos na segurança e saúde de nossos funcionários.":
       "We continuously invest in the occupational safety, health, and well-being of our employees.",
     "Garantimos o desenvolvimento sustentável, protegendo o meio ambiente para gerações futuras.":
@@ -551,7 +551,7 @@
       "The pursuit of excellence in Quality, Safety, Environment, Health, and Human Resources promotes the education, training, and commitment of employees toward global citizenship.",
 
     // == Programa de Qualidade de Vida - Complementar ==
-    "Programa de Qualidade de Vida - Galáxia Marítima": "Quality of Life Program - Galáxia Marítima",
+    "Programa de Qualidade de Vida - Galáxia": "Quality of Life Program - Galáxia",
     "A implementação de um Programa de Qualidade de Vida Galáxia pretende obter os seguintes benefícios com a implementação do mesmo:":
       "The implementation of Galáxia's Quality of Life Program aims to achieve the following key corporate and human benefits:",
     "+ Alta": "+ High",

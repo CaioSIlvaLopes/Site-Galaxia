@@ -16,66 +16,8 @@
   <!-- ========================================================================== -->
   <!-- SEÇÃO 01: CABEÇALHO (HEADER & MENU DE NAVEGAÇÃO)                         -->
   <!-- ========================================================================== -->
-  <header class="header" id="header">
-    <div class="container">
-
-      <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
-      <a href="index.html" class="header-logo">
-        <img src="assets/images/logo.png" alt="Galáxia  Logo" />
-      </a>
-
-      <!-- [EDITAR LINKS DO MENU DE NAVEGAÇÃO] -->
-      <nav class="header-nav" id="mainNav">
-        <a href="index.html">Home</a>
-        <a href="quem-somos.html">Quem Somos</a>
-        <a href="frota.html" class="active">Frota</a>
-        <a href="responsabilidade-social.html">Responsabilidade Social</a>
-        <a href="index.html#servicos">Serviços</a>
-        <a href="noticias.html">Notícias</a>
-        <div class="nav-dropdown" id="qsmsDropdown">
-          <button class="nav-dropdown-toggle" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">
-            QSMS
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-          <div class="nav-dropdown-menu">
-            <a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a>
-            <a href="principios-eticos.html">Princípios Éticos</a>
-            <a href="politica-qsms.html">Política de QSMS</a>
-            <a href="politica-alcool-drogas.html">Política de Álcool, Drogas e Tabaco</a>
-            <a href="programa-gestao-ambiental.html">Programa de Gestão Ambiental</a>
-            <a href="programa-qualidade-vida.html">Programa de Qualidade de Vida</a>
-            <a href="politica-esg.html">Política de ESG</a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- SELETOR DE IDIOMAS & CTA DO CABEÇALHO -->
-      <div class="header-actions">
-        <div class="lang-selector" aria-label="Seletor de Idioma">
-          <a href="#" class="lang-flag active" title="Português (Brasil)" aria-label="Português">
-            <img src="assets/images/flag-br.svg" alt="PT-BR" />
-          </a>
-          <a href="#" class="lang-flag" title="English (UK)" aria-label="English">
-            <img src="assets/images/flag-uk.svg" alt="EN-UK" />
-          </a>
-        </div>
-
-        <div class="header-cta">
-          <a href="fale-conosco.html" class="btn btn-primary">
-            Fale conosco
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <!-- Botão Menu Mobile (Hamburger) -->
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
+  <div id="header-placeholder"></div>
+  <script src="partials/load-header.js"></script>
 
 
   <!-- ========================================================================== -->
@@ -121,14 +63,13 @@
         <article class="fleet-card reveal reveal-delay-2">
           <figure class="fleet-card-media">
             <img src="assets/images/frota/Captain Nicholas Z/1.jpg" alt="Navio CAPTAIN NICHOLAS Z da Galáxia" />
-            <span class="fleet-tag">PSV / AHTS</span>
           </figure>
           <div class="fleet-card-body">
             <div class="fleet-card-meta">
               <span>AHTS</span>
             </div>
             <h3 class="fleet-ship-name">CAPTAIN NICHOLAS Z</h3>
-            <p class="fleet-ship-desc">Captain Nicholas Z é uma embarcação do tipo AHTS (Anchor Handling Tug Supply), destinada às operações de manuseio de âncoras, reboque e apoio às atividades offshore. Projetada para atender aos mais elevados padrões do setor, alia robustez, segurança e desempenho operacional, contribuindo para operações confiáveis e eficientes em ambientes marítimos desafiadores.</p>
+            <p class="fleet-ship-desc">Embarcação AHTS projetada para manuseio de âncoras, reboque e apoio offshore. Alia robustez, segurança e alto desempenho em ambientes marítimos desafiadores.</p>
             <div class="fleet-card-footer">
               <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
               <a href="navio-detalhes.html?navio=captain-nicholas-z" class="btn-more-info">
@@ -143,7 +84,6 @@
         <article class="fleet-card reveal reveal-delay-3">
           <figure class="fleet-card-media">
             <img src="assets/images/frota/Apollo Z/1.png" alt="Navio APOLLO Z da Galáxia navegando em alto mar" />
-            <span class="fleet-tag">Suporte Logístico</span>
           </figure>
           <div class="fleet-card-body">
             <div class="fleet-card-meta">
@@ -151,7 +91,7 @@
               <span>ROV</span>
             </div>
             <h3 class="fleet-ship-name">APOLLO Z</h3>
-            <p class="fleet-ship-desc">Apollo Z é uma embarcação do tipo AHTS (Anchor Handling Tug Supply), projetada para operações de manuseio de âncoras, reboque, suprimento e apoio offshore. Equipada com ROV (Remotely Operated Vehicle), amplia sua capacidade operacional para inspeções, monitoramentos e intervenções submarinas, oferecendo maior precisão, segurança e eficiência em operações de alta complexidade. Sua versatilidade e tecnologia fazem da Apollo Z uma solução completa para o atendimento às demandas do setor de óleo e gás.</p>
+            <p class="fleet-ship-desc">Embarcação AHTS para reboque e apoio offshore. É equipada com ROV para inspeções e intervenções submarinas de alta precisão e complexidade no setor de óleo e gás.</p>
             <div class="fleet-card-footer">
               <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
               <a href="navio-detalhes.html?navio=apollo-z" class="btn-more-info">
@@ -166,14 +106,13 @@
         <article class="fleet-card reveal reveal-delay-1">
           <figure class="fleet-card-media">
             <img src="assets/images/frota/1015/GNL 1015.png" alt="Embarcação GNL 1015 da Galáxia" />
-            <span class="fleet-tag">Apoio MPSV</span>
           </figure>
           <div class="fleet-card-body">
             <div class="fleet-card-meta">
               <span>OSRV</span>
             </div>
             <h3 class="fleet-ship-name">GNL 1015</h3>
-            <p class="fleet-ship-desc">GNL 1015 é uma embarcação especializada em Oil Recovery, preparada para atuar em operações de resposta a incidentes de poluição por óleo. Equipada com sistemas dedicados à contenção e recuperação de hidrocarbonetos, oferece elevada capacidade de resposta em situações de emergência ambiental, contribuindo para a mitigação dos impactos ambientais e para a preservação dos ecossistemas marinhos.</p>
+            <p class="fleet-ship-desc">Embarcação OSRV focada em Oil Recovery, equipada com sistemas dedicados de contenção e recuperação de hidrocarbonetos para respostas rápidas em emergências ambientais.</p>
             <div class="fleet-card-footer">
               <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
               <a href="navio-detalhes.html?navio=gnl-1015" class="btn-more-info">
@@ -189,7 +128,6 @@
         <article class="fleet-card reveal reveal-delay-3">
           <figure class="fleet-card-media">
             <img src="assets/images/frota/Theseus Z/THESEUS Z.png" alt="Navio THESEUS Z da Galáxia cortando as ondas" />
-            <span class="fleet-tag">Destaque Operacional</span>
           </figure>
           <div class="fleet-card-body">
             <div class="fleet-card-meta">
@@ -197,7 +135,7 @@
               <span>Multi-Missão</span>
             </div>
             <h3 class="fleet-ship-name">THESEUS Z</h3>
-            <p class="fleet-ship-desc">Theseus Z é uma embarcação do tipo AHTS (Anchor Handling Tug Supply), desenvolvida para operações de manuseio de âncoras, reboque, suprimento e apoio offshore. Reconhecida por sua robustez, confiabilidade e elevado desempenho operacional, atua em conformidade com rigorosos padrões de segurança, qualidade e proteção ambiental, garantindo eficiência e excelência na execução de operações marítimas complexas.</p>
+            <p class="fleet-ship-desc">Embarcação AHTS robusta e confiável para operações de reboque, suprimento e manuseio de âncoras. Atua sob rigorosos padrões de segurança em missões marítimas complexas.</p>
             <div class="fleet-card-footer">
               <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
               <a href="navio-detalhes.html?navio=theseus-z" class="btn-more-info">
@@ -212,14 +150,13 @@
         <article class="fleet-card reveal reveal-delay-3">
           <figure class="fleet-card-media">
             <img src="assets/images/frota/Atlas Z/DJI_20251016134301_0030_W.JPG" alt="Navio ATLAS Z da Galáxia  — foto aérea" />
-            <span class="fleet-tag">Apoio Marítimo</span>
           </figure>
           <div class="fleet-card-body">
             <div class="fleet-card-meta">
               <span>OSRV</span>
             </div>
             <h3 class="fleet-ship-name">ATLAS Z</h3>
-            <p class="fleet-ship-desc">Atlas Z é uma embarcação especializada em Oil Recovery, desenvolvida para atuar em operações de resposta a emergências ambientais e combate à poluição por óleo no mar. Seu grande diferencial é a utilização da tecnologia Current Buster VI, um dos mais modernos sistemas de contenção e recuperação de óleo do mundo, projetado para operar com elevada eficiência mesmo em condições de correnteza e mar agitado. Essa tecnologia permite uma resposta rápida, segura e eficaz, reforçando o compromisso da Galaxia com a proteção do meio ambiente, a sustentabilidade e a excelência operacional.</p>
+            <p class="fleet-ship-desc">Embarcação de Oil Recovery dotada da tecnologia Current Buster VI, um dos sistemas mais modernos do mundo, garantindo altíssima eficiência de contenção mesmo em mar agitado.</p>
             <div class="fleet-card-footer">
               <span class="fleet-status"><span class="status-dot"></span> Em Operação</span>
               <a href="navio-detalhes.html?navio=atlas-z" class="btn-more-info">
@@ -274,70 +211,8 @@
   <!-- ========================================================================== -->
   <!-- SEÇÃO 05: RODAPÉ (FOOTER)                                                -->
   <!-- ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-main">
-        
-        <div class="footer-brand">
-          <a href="index.html" class="header-logo">
-            <img src="assets/images/logo.png" alt="Galáxia " />
-            <span class="header-logo-text">Galáxia </span>
-          </a>
-          <p>Empresa Brasileira de Navegação com foco em apoio marítimo, apoio portuário e logística. Navegando com excelência desde 2002.</p>
-          
-          <div class="footer-social">
-            <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
-            <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
-            <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-          </div>
-        </div>
-
-        <div class="footer-col">
-          <h4>Navegação</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quem-somos.html">Quem Somos</a></li>
-            <li><a href="autoridade-parar-trabalho.html">Autoridade de Parar o Trabalho</a></li>
-            <li><a href="principios-eticos.html">Princípios Éticos</a></li>
-            <li><a href="responsabilidade-social.html">Responsabilidade Social</a></li>
-            <li><a href="frota.html">Frota</a></li>
-            <li><a href="fale-conosco.html">Fale Conosco</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Soluções</h4>
-          <ul>
-            <li><a href="index.html#areas-atuacao">Áreas de Atuação</a></li>
-            <li><a href="index.html#servicos">Apoio Marítimo</a></li>
-            <li><a href="index.html#servicos">Apoio Portuário</a></li>
-            <li><a href="index.html#servicos">Logística Naval</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Contato</h4>
-          <div class="footer-contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <p>Rio de Janeiro, RJ — Brasil</p>
-          </div>
-          <div class="footer-contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <p>+55 (21) 0000-0000</p>
-          </div>
-          <div class="footer-contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            <p>contato@galaxia.com.br</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2026 Galáxia . Todos os direitos reservados.</p>
-        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">SGI & SMS</a></p>
-      </div>
-    </div>
-  </footer>
+  <div id="footer-placeholder"></div>
+  <script src="partials/load-footer.js"></script>
 
   <script>
     // Efeito visual de opacidade do cabeçalho no scroll

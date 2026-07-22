@@ -1,5 +1,5 @@
 /* ==========================================================================
-   GALÁXIA MARÍTIMA — SISTEMA DE ESTILOS ORGANIZADO POR SEÇÕES
+   Galáxia — SISTEMA DE ESTILOS ORGANIZADO POR SEÇÕES
    ==========================================================================
    ÍNDICE DE SEÇÕES CSS:
    01. VARIÁVEIS E CORES (Altere a paleta de cores aqui)
@@ -1301,8 +1301,8 @@ ul, ol {
 }
 
 .footer-brand .header-logo img {
-  width: 66px;
-  height: 66px;
+  width: 200px;
+  height: 100px;
 }
 
 .footer-brand .header-logo-text {
@@ -2017,7 +2017,7 @@ ul, ol {
 
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
@@ -3269,7 +3269,7 @@ ul, ol {
 
 .contact-item-detail {
   font-size: 0.8rem;
-  color: var(--gray-400);
+  color: var(--csr-green-400);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
