@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -276,13 +276,12 @@
         <div class="footer-col">
           <h4>Nossos Navios</h4>
           <ul>
-            <li><a href="navio-detalhes.html?navio=amazon-chieftain-z">AMAZON CHIEFTAIN Z</a></li>
             <li><a href="navio-detalhes.html?navio=captain-nicholas-z">CAPTAIN NICHOLAS Z</a></li>
             <li><a href="navio-detalhes.html?navio=apollo-z">APOLLO Z</a></li>
             <li><a href="navio-detalhes.html?navio=theseus-z">THESEUS Z</a></li>
             <li><a href="navio-detalhes.html?navio=atlas-z">ATLAS Z</a></li>
             <li><a href="navio-detalhes.html?navio=gnl-1015">GNL 1015</a></li>
-            <li><a href="navio-detalhes.html?navio=gnl-1022">GNL 1022</a></li>
+
           </ul>
         </div>
 
@@ -321,28 +320,7 @@
     // Banco de Dados Dinâmico da Frota (Para navegação estática inteligente)
     // imgs: array de imagens — se tiver mais de uma, o carrossel automático é ativado
     const frotaDados = {
-      'amazon-chieftain-z': {
-        nome: 'AMAZON CHIEFTAIN Z',
-        imgs: ['assets/images/frota/image_b3b8ca.jpg'],
-        tipo: 'AHTS / TUG / SUPPLY',
-        proprietario: 'MCT INC.',
-        construcao: '1992 (Soviknes Verft, Noruega)',
-        bandeira: 'Chipre',
-        porto: 'Limassol',
-        callsign: '5BJB4',
-        classificacao: 'LRS +1001A1, LMC, UMS offshore, DP1',
-        imo: '9007178',
-        loa: '76,00 m',
-        lbp: '67,80 m',
-        boca: '17,20 m',
-        pontal: '8,50 m',
-        calado: '7,21 m',
-        borda: '1,29 m',
-        dwt: '3.393 t',
-        drybulk: '345 m³',
-        bollard: '182 t',
-        arqueacao: '2.966 t / 889 t'
-      },
+
       'captain-nicholas-z': {
         nome: 'CAPTAIN NICHOLAS Z',
         imgs: [
@@ -420,42 +398,7 @@
         bollard: '—',
         arqueacao: '—'
       },
-      'gnl-1022': {
-        nome: 'GNL 1022',
-        imgs: ['assets/images/frota/image_b3b8ff.jpg'],
-        tipo: 'MPSV – Navio de Apoio Multipropósito',
-        proprietario: '—',
-        construcao: '2012 (ABG Shipyard, Surat — próximo ao Porto Magdalla)',
-        bandeira: '—',
-        porto: '—',
-        callsign: '—',
-        classificacao: 'DNV',
-        imo: '—',
-        loa: '63,40 m',
-        lbp: '—',
-        boca: '15,80 m',
-        pontal: '—',
-        calado: '5,50 m (máx. – IBC: T2)',
-        borda: '—',
-        dwt: '1.856 t (calado de verão)',
-        drybulk: '220,8 t',
-        bollard: '—',
-        arqueacao: '1.969 t (Bruta)',
-        extras: [
-          { label: 'Área de Convés', value: '120 m²' },
-          { label: 'Carga de Convés / Resistência', value: '5,0 t/m²' },
-          { label: 'Óleo Combustível (96%)', value: '533,7 m³ — 200 m³/h @ 60 m' },
-          { label: 'Água Potável (100%)', value: '1.400 t' },
-          { label: 'Água de Perfuração / Lastro (100%)', value: '292 t' },
-          { label: 'Lama Base Sintética (96%)', value: '183 t' },
-          { label: 'Guindaste de Carga de Provisões', value: '1× Norway Hift 3 t' },
-          { label: 'Guindastes de Tração (Tugger Winches)', value: '2× 10 t × 15 m/min, retenção 20 t' },
-          { label: 'Motores Principais (Geradores)', value: '2× 2.400 kW, RRM Bergen — Modelo: C25:33L8P' },
-          { label: 'Propulsores de Proa', value: '1× 500 kW Rolls-Royce' },
-          { label: 'Propulsores Azimutais', value: '2× CPP Ulstein KaMeWa' },
-          { label: 'Capacidade Total de Tripulação', value: '29 pessoas' }
-        ]
-      },
+
       'theseus-z': {
         nome: 'THESEUS Z',
         imgs: ['assets/images/frota/Theseus Z/THESEUS Z.png'],
@@ -685,7 +628,7 @@
       document.getElementById('spec-bollard').textContent = d.bollard;
       document.getElementById('spec-arqueacao').textContent = d.arqueacao;
 
-      // Bloco extra de especificações (opcional — ex: GNL 1022)
+      // Bloco extra de especificações (opcional)
       if (d.extras && d.extras.length > 0) {
         const specsGrid = document.querySelector('.specs-grid');
         const extraBlock = document.createElement('div');
