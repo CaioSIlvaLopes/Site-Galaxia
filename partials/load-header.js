@@ -2,7 +2,7 @@ const headerHTML = `<header class="header" id="header">
     <div class="container">
       
       <!-- [EDITAR LOGO E NOME DA EMPRESA] -->
-      <a href="#hero" class="header-logo">
+      <a href="index.html" class="header-logo">
         <img src="assets/images/logo.png" alt="Galáxia Logo" />
       </a>
 
